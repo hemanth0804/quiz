@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "question": "What is the capital of India?",
+        "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+        "correct_answer": "New Delhi"
+    },
+    {
+        "id": 2,
+        "question": "Which river is known as the 'Ganga of the South'?",
+        "options": ["Krishna", "Kaveri", "Godavari", "Narmada"],
+        "correct_answer": "Godavari"
+    },
+    {
+        "id": 3,
+        "question": "Who was the first Prime Minister of India?",
+        "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Vallabhbhai Patel", "Subhas Chandra Bose"],
+        "correct_answer": "Jawaharlal Nehru"
+    },
+    {
+        "id": 4,
+        "question": "In which year did India gain independence?",
+        "options": ["1945", "1947", "1950", "1952"],
+        "correct_answer": "1947"
+    },
+    {
+        "id": 5,
+        "question": "Which Indian state is known as the 'Land of Five Rivers'?",
+        "options": ["Punjab", "Haryana", "Rajasthan", "Gujarat"],
+        "correct_answer": "Punjab"
+    },
+    {
+        "id": 6,
+        "question": "Who is known as the 'Father of the Nation' in India?",
+        "options": ["Bhagat Singh", "Subhas Chandra Bose", "Mahatma Gandhi", "Jawaharlal Nehru"],
+        "correct_answer": "Mahatma Gandhi"
+    },
+    {
+        "id": 7,
+        "question": "Where is the Taj Mahal located?",
+        "options": ["Jaipur", "Agra", "Delhi", "Varanasi"],
+        "correct_answer": "Agra"
+    },
+    {
+        "id": 8,
+        "question": "What is the national animal of India?",
+        "options": ["Lion", "Elephant", "Tiger", "Peacock"],
+        "correct_answer": "Tiger"
+    },
+    {
+        "id": 9,
+        "question": "What is the national sport of India?",
+        "options": ["Cricket", "Hockey", "Kabaddi", "Football"],
+        "correct_answer": "Hockey"
+    },
+    {
+        "id": 10,
+        "question": "What is the name of the Indian classical dance form from Tamil Nadu?",
+        "options": ["Kathakali", "Bharatnatyam", "Odissi", "Kuchipudi"],
+        "correct_answer": "Bharatnatyam"
+    },
+    {
+        "id": 11,
+        "question": "Which is the largest state in India by area?",
+        "options": ["Uttar Pradesh", "Rajasthan", "Madhya Pradesh", "Maharashtra"],
+        "correct_answer": "Rajasthan"
+    },
+    {
+        "id": 12,
+        "question": "What is the southernmost point of India?",
+        "options": ["Kanyakumari", "Indira Point", "Rameswaram", "Lakshadweep"],
+        "correct_answer": "Indira Point"
+    },
+    {
+        "id": 13,
+        "question": "In which state is the Sun Temple of Konark located?",
+        "options": ["Odisha", "West Bengal", "Gujarat", "Andhra Pradesh"],
+        "correct_answer": "Odisha"
+    },
+    {
+        "id": 14,
+        "question": "Which mountain range is also called the 'Abode of Snow'?",
+        "options": ["Aravalli", "Himalayas", "Western Ghats", "Vindhyas"],
+        "correct_answer": "Himalayas"
+    },
+    {
+        "id": 15,
+        "question": "Which Indian state has the longest coastline?",
+        "options": ["Gujarat", "Maharashtra", "Andhra Pradesh", "Tamil Nadu"],
+        "correct_answer": "Gujarat"
+    }
+]
