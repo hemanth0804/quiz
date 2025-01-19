@@ -25,7 +25,6 @@ def contact():
     return render_template('contact.html')
 
 @app.route('/quiz')
-@app.route('/quiz')
 def quiz():
     category = request.args.get('category')
 
@@ -39,18 +38,18 @@ def quiz():
     }
 
     if category not in categories:
-        return "Invalid category!", 400
+        return jsonify({'error': 'Invalid category!'}), 400
 
     selected_subjects = categories[category]
     selected_questions = [
-        question for question in all_questions if question["category"] in selected_subjects
+        question for question in all_questions if question.get("category") in selected_subjects
     ]
 
+    if not selected_questions:
+        return jsonify({'error': 'No questions available for the selected category.'}), 404
+
     # Set the number of questions based on the category
-    if category in ["jee", "neet"]:
-        num_questions = 20
-    else:
-        num_questions = 10
+    num_questions = 20 if category in ["jee", "neet"] else 10
 
     if len(selected_questions) >= num_questions:
         selected_questions = random.sample(selected_questions, num_questions)
@@ -65,6 +64,9 @@ def quiz():
 def get_question():
     current_index = session.get('current_question', 0)
     selected_questions = session.get('questions', [])
+
+    if not selected_questions:
+        return jsonify({'error': 'No questions available.'}), 400
 
     if current_index < len(selected_questions):
         question = selected_questions[current_index]
@@ -84,6 +86,9 @@ def submit_answer():
 
     current_index = session.get('current_question', 0)
     selected_questions = session.get('questions', [])
+
+    if not selected_questions:
+        return jsonify({'error': 'No active questions.'}), 400
 
     if current_index < len(selected_questions):
         question = selected_questions[current_index]
