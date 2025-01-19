@@ -1,6 +1,16 @@
-/* General container styling */
+body {
+    background-image: url('/static/images/1256875_6530.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
 #quiz-container {
     margin: 0 auto;
+    margin-top: 100px;
     max-width: 800px;
     text-align: center;
     padding: 20px;
@@ -12,7 +22,6 @@
     position: relative;
 }
 
-/* Timer styling */
 .timer {
     font-size: 2rem;
     font-weight: bold;
@@ -22,7 +31,6 @@
     right: 20px;
 }
 
-/* Bank styling */
 .bank {
     font-size: 1.5rem;
     color: #00ff66;
@@ -31,7 +39,6 @@
     left: 20px;
 }
 
-/* Question styling */
 .question {
     font-size: 1.8rem;
     font-weight: bold;
@@ -42,7 +49,6 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Options container styling */
 .options {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -50,7 +56,6 @@
     margin: 20px 0;
 }
 
-/* Option button styling */
 .options button {
     background-color: #2d2d44;
     color: #fff;
@@ -73,21 +78,50 @@
     transform: scale(0.95);
 }
 
-/* Result styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#quiz-container button {
+    background-color: #008CBA;
+    color: white;
+}
+
+#quiz-container button:hover {
+    background-color: #005f73;
+}
+
 .result {
     margin-top: 20px;
     font-size: 1.5rem;
     color: #00ff66;
 }
 
-/* Error message styling */
 .error {
     margin-top: 10px;
     font-size: 1rem;
     color: #ff4444;
 }
 
-/* Footer styling for branding or information */
 .footer {
     margin-top: 30px;
     font-size: 0.9rem;

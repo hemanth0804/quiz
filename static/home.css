@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #1a1a2e;
+}
+
+.start-btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.container-2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.card2{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.start-btn:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+}
+
+.start-btn:active {
+    background-color: #e65c00;
+    transform: scale(0.95);
+}
+
+/* Subject Selection Section */
+.subjects {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.subjects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1a1a2e;
+}
+
+.container {
+    display: flex;
+   justify-content: center;
+}
+
+.card {
+    height: 100px;
+    width: 150px;
+    background-color: #2d2d44;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+
+}
+
+.card:hover {
+    background-color: #3e3e60;
+    transform: scale(1.05);
+}
+
+.card:active {
+    background-color: #555;
+    transform: scale(0.95);
+}
+button{
+    margin-left: 20px;
+    border-radius: 10px;
+}
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}

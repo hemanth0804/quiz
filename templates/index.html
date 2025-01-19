@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>Quiz App with Timer</title>
     <link rel="stylesheet" href="/static/index.css">
+    <style>
+        #timer {
+            font-size: 1.5rem;
+            color: rgb(0, 0, 0);
+            background-color: #4caf50;
+            padding: 5px 10px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        #quiz-container {
+            text-align: center;
+        }
+
+        .options button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
     <div id="quiz-container">
         <h1>Quiz App</h1>
-        <div class="question">Loading question...</div>
+        <div id="timer">10:00</div>
+        <div class="question"></div>
         <div class="options"></div>
         <div class="result"></div>
         <div class="error"></div>
     </div>
     <script src="/static/index.js"></script>
+
 </body>
+
 </html>

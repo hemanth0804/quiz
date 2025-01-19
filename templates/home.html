@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Quiz - Test Your Knowledge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the JEE Quiz!</h1>
+        <p>Prepare for the Joint Entrance Examination by testing your knowledge on key topics.</p>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Quick Quiz</h2>
+            <div class="container-2">
+                <div class="card2">
+                    <h2>Start the JEE Quiz</h2>
+                    <a href="{{ url_for('quiz', category='jee') }}">
+                        <button class="start-btn">Start Quick Quiz</button>
+                    </a>
+                </div>
+                <div class="card2">
+                    <h2>Start the NEET Quiz</h2>
+                    <a href="{{ url_for('quiz', category='neet') }}">
+                        <button class="start-btn">Start Quick Quiz</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="subjects">
+            <h2>Choose a Subject</h2>
+            <div class="container">
+                <button onclick="window.location.href='{{ url_for('quiz', category='physics') }}'">
+                    <div class="card">Physics</div>
+                </button>
+                <button onclick="window.location.href='{{ url_for('quiz', category='chemistry') }}'">
+                    <div class="card">Chemistry</div>
+                </button>
+                <button onclick="window.location.href='{{ url_for('quiz', category='maths') }}'">
+                    <div class="card">Mathematics</div>
+                </button>
+                <button onclick="window.location.href='{{ url_for('quiz', category='biology') }}'">
+                    <div class="card">Biology</div>
+                </button>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 JEE Quiz. All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+
+</html>
