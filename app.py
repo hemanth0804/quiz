@@ -116,5 +116,3 @@ def get_final_score():
     score = session.get('score', 0)
     return jsonify({'score': score})
 
-if __name__ == '__main__':
-    app.run(debug=True)
