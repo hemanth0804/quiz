@@ -1,18 +1,15 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header Styling */
 header {
     text-align: center;
     margin-bottom: 40px;
@@ -23,32 +20,32 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 10px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     margin-top: 20px;
-    margin-right: 50px;
     font-weight: bold;
+    flex-wrap: wrap;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 10px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-transform: uppercase;
     transition: color 0.3s;
 }
@@ -57,21 +54,20 @@ nav ul li a:hover {
     color: #ff6600;
 }
 
-/* Hero Section */
 #hero {
     text-align: center;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 20px;
     color: #1a1a2e;
 }
 
 .start-btn {
-    padding: 15px 30px;
-    font-size: 1.2rem;
+    padding: 10px 20px;
+    font-size: 1rem;
     background-color: #ff6600;
     color: white;
     border: none;
@@ -79,59 +75,52 @@ h2 {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
-.container-2{
+
+.container-2 {
     display: flex;
-    margin-top: 30px;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
 }
-.card2{
+
+.card2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 20px;
-    margin-left: 20px;
+    margin: 10px 0;
 }
 
-.start-btn:hover {
-    background-color: #e65c00;
-    transform: scale(1.05);
-}
-
-.start-btn:active {
-    background-color: #e65c00;
-    transform: scale(0.95);
-}
-
-/* Subject Selection Section */
 .subjects {
     text-align: center;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 .subjects h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
     color: #1a1a2e;
 }
 
 .container {
     display: flex;
-   justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
-    height: 100px;
-    width: 150px;
+    height: auto;
+    width: 200px;
     background-color: #2d2d44;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: transform 0.3s, background-color 0.3s;
-
+    margin: 10px 0;
 }
 
 .card:hover {
@@ -143,19 +132,21 @@ h2 {
     background-color: #555;
     transform: scale(0.95);
 }
-button{
-    margin-left: 20px;
+
+button {
+    margin: 10px 0;
     border-radius: 10px;
 }
-/* Footer Styling */
+
 footer {
     text-align: center;
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 30px;
+    padding: 15px;
     background-color: #333;
     color: white;
     border-radius: 10px;
 }
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.8rem;
