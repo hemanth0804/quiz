@@ -7,7 +7,7 @@ app.secret_key = 'supersecretkey'
 
 # Load questions from JSON file
 try:
-    with open('questions.json') as f:
+    with open('questions.json', encoding='utf-8') as f:
         all_questions = json.load(f)
 except FileNotFoundError:
     all_questions = []
@@ -15,6 +15,9 @@ except FileNotFoundError:
 except json.JSONDecodeError:
     all_questions = []
     print("Error: Failed to parse 'questions.json'. Check the JSON file for formatting issues.")
+except Exception as e:
+    all_questions = []
+    print(f"Error: {str(e)}")
 
 @app.route('/')
 def home():
@@ -29,11 +32,11 @@ def quiz():
     category = request.args.get('category')
 
     categories = {
-        "jee": ["physics", "chemistry", "maths"],
+        "jee": ["physics", "chemistry", "math"],
         "neet": ["physics", "chemistry", "biology"],
         "physics": ["physics"],
         "chemistry": ["chemistry"],
-        "maths": ["maths"],
+        "maths": ["math"],
         "biology": ["biology"]
     }
 
@@ -116,3 +119,5 @@ def get_final_score():
     score = session.get('score', 0)
     return jsonify({'score': score})
 
+if __name__ == '__main__':
+    app.run(debug=True)

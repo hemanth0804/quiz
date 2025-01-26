@@ -13,187 +13,715 @@
     },
     {
         "id": 2,
-        "question": "An object moves with a uniform acceleration. The distance covered in the 3rd second of its motion is 9 m. What is the acceleration of the object?",
+        "question": "Which law states that the net flux through a closed surface is proportional to the enclosed charge?",
+        "options": [
+            "Gauss's Law",
+            "Coulomb's Law",
+            "Ampere's Law",
+            "Biot-Savart Law"
+        ],
+        "correct_answer": "Gauss's Law",
+        "category": "physics"
+    },
+    {
+        "id": 3,
+        "question": "The force between two charges is inversely proportional to the square of the distance between them. This is known as?",
+        "options": [
+            "Newton's Third Law",
+            "Coulomb's Law",
+            "Gauss's Law",
+            "Faraday's Law"
+        ],
+        "correct_answer": "Coulomb's Law",
+        "category": "physics"
+    },
+    {
+        "id": 4,
+        "question": "What is the dimensional formula of Planck’s constant?",
+        "options": [
+            "ML²T⁻³",
+            "ML²T⁻²",
+            "M⁻¹L²T³",
+            "MLT⁻²"
+        ],
+        "correct_answer": "ML²T⁻³",
+        "category": "physics"
+    },
+    {
+        "id": 5,
+        "question": "Which phenomenon demonstrates the wave nature of light?",
+        "options": [
+            "Photoelectric Effect",
+            "Diffraction",
+            "Compton Effect",
+            "Zeeman Effect"
+        ],
+        "correct_answer": "Diffraction",
+        "category": "physics"
+    },
+    {
+        "id": 6,
+        "question": "The SI unit of magnetic field is?",
+        "options": [
+            "Tesla",
+            "Weber",
+            "Newton per Ampere",
+            "Henry"
+        ],
+        "correct_answer": "Tesla",
+        "category": "physics"
+    },
+    {
+        "id": 7,
+        "question": "What is the energy of a photon with a wavelength of 500 nm? (h = 6.63 × 10⁻³⁴ J·s, c = 3 × 10⁸ m/s)",
+        "options": [
+            "3.98 × 10⁻¹⁹ J",
+            "4.96 × 10⁻¹⁹ J",
+            "2.48 × 10⁻¹⁹ J",
+            "6.63 × 10⁻³⁴ J"
+        ],
+        "correct_answer": "3.98 × 10⁻¹⁹ J",
+        "category": "physics"
+    },
+    {
+        "id": 8,
+        "question": "If a body is projected at an angle θ with initial velocity u, the horizontal range is maximum when θ is?",
+        "options": [
+            "30°",
+            "45°",
+            "60°",
+            "90°"
+        ],
+        "correct_answer": "45°",
+        "category": "physics"
+    },
+    {
+        "id": 9,
+        "question": "Which of the following is an example of a conservative force?",
+        "options": [
+            "Friction",
+            "Tension",
+            "Gravitational Force",
+            "Applied Force"
+        ],
+        "correct_answer": "Gravitational Force",
+        "category": "physics"
+    },
+    {
+        "id": 10,
+        "question": "What is the physical quantity represented by the area under the force-displacement graph?",
+        "options": [
+            "Work",
+            "Power",
+            "Momentum",
+            "Kinetic Energy"
+        ],
+        "correct_answer": "Work",
+        "category": "physics"
+    },
+    {
+        "id": 11,
+        "question": "What is the angular velocity in rad/s of a body rotating at 120 rpm?",
+        "options": [
+            "2π",
+            "4π",
+            "12π",
+            "120π"
+        ],
+        "correct_answer": "4π",
+        "category": "physics"
+    },
+    {
+        "id": 12,
+        "question": "In a thermodynamic process, work done on the system is positive if?",
+        "options": [
+            "The volume increases",
+            "The volume decreases",
+            "No heat is exchanged",
+            "The pressure decreases"
+        ],
+        "correct_answer": "The volume decreases",
+        "category": "physics"
+    },
+    {
+        "id": 13,
+        "question": "The SI unit of moment of inertia is?",
+        "options": [
+            "kg·m",
+            "kg·m²",
+            "N·m",
+            "kg·m/s²"
+        ],
+        "correct_answer": "kg·m²",
+        "category": "physics"
+    },
+    {
+        "id": 14,
+        "question": "The escape velocity of an object on the surface of Earth is approximately?",
+        "options": [
+            "7.9 km/s",
+            "11.2 km/s",
+            "15 km/s",
+            "5.6 km/s"
+        ],
+        "correct_answer": "11.2 km/s",
+        "category": "physics"
+    },
+    {
+        "id": 15,
+        "question": "What is the expression for the kinetic energy of a particle in terms of momentum (p)?",
+        "options": [
+            "p²/2m",
+            "m/p²",
+            "p/2m",
+            "p²m"
+        ],
+        "correct_answer": "p²/2m",
+        "category": "physics"
+    },
+    {
+        "id": 16,
+        "question": "Which of the following is NOT a unit of power?",
+        "options": [
+            "Watt",
+            "Joule per second",
+            "Newton meter per second",
+            "Volt per Ampere"
+        ],
+        "correct_answer": "Volt per Ampere",
+        "category": "physics"
+    },
+    {
+        "id": 17,
+        "question": "The time period of a simple pendulum of length ( L ) is proportional to?",
+        "options": [
+            "√L",
+            "1/√L",
+            "L",
+            "1/L"
+        ],
+        "correct_answer": "√L",
+        "category": "physics"
+    },
+    {
+        "id": 18,
+        "question": "Which of the following parameters remains constant in an elastic collision?",
+        "options": [
+            "Momentum only",
+            "Kinetic Energy only",
+            "Both Momentum and Kinetic Energy",
+            "None of these"
+        ],
+        "correct_answer": "Both Momentum and Kinetic Energy",
+        "category": "physics"
+    },
+    {
+        "id": 19,
+        "question": "In an adiabatic process, which of the following remains constant?",
+        "options": [
+            "Pressure",
+            "Volume",
+            "Temperature",
+            "Entropy"
+        ],
+        "correct_answer": "Entropy",
+        "category": "physics"
+    },
+    {
+        "id": 20,
+        "question": "A satellite moves in a circular orbit at a height h above Earth. The orbital speed depends on?",
+        "options": [
+            "Mass of the satellite",
+            "Radius of the Earth only",
+            "Gravitational constant and radius of orbit",
+            "Height h only"
+        ],
+        "correct_answer": "Gravitational constant and radius of orbit",
+        "category": "physics"
+    },
+    {
+        "id": 21,
+        "question": "A particle of mass m is moving in a circular orbit under a central force inversely proportional to the cube of the distance r. The period of revolution T is proportional to?",
+        "options": [
+            "r³",
+            "r²",
+            "r⁻³",
+            "r⁻²"
+        ],
+        "correct_answer": "r³",
+        "category": "physics"
+    },
+    {
+        "id": 22,
+        "question": "A uniform rod of length L and mass M is pivoted at one end and is free to rotate in the vertical plane. What is the angular acceleration of the rod when it makes an angle θ with the vertical?",
+        "options": [
+            "g/L",
+            "(3g/2L) sin θ",
+            "(g/L) sin θ",
+            "(2g/3L) sin θ"
+        ],
+        "correct_answer": "(3g/2L) sin θ",
+        "category": "physics"
+    },
+    {
+        "id": 23,
+        "question": "In an LC circuit, the angular frequency of oscillation is given by?",
+        "options": [
+            "1/√(LC)",
+            "√(L/C)",
+            "1/(2π√LC)",
+            "2π√(L/C)"
+        ],
+        "correct_answer": "1/√(LC)",
+        "category": "physics"
+    },
+    {
+        "id": 24,
+        "question": "The energy levels of a hypothetical atom are given by ( E_n = -\frac{13.6}{n^2} , eV ). What will be the wavelength of the photon emitted during the transition from n=3 to n=2?",
+        "options": [
+            "656 nm",
+            "486 nm",
+            "121 nm",
+            "97 nm"
+        ],
+        "correct_answer": "656 nm",
+        "category": "physics"
+    },
+    {
+        "id": 25,
+        "question": "If the de Broglie wavelength of an electron is equal to that of a photon, their momentum will be?",
+        "options": [
+            "Same",
+            "Proportional to their masses",
+            "Proportional to the square of their velocities",
+            "Zero for both"
+        ],
+        "correct_answer": "Same",
+        "category": "physics"
+    },
+    {
+        "id": 26,
+        "question": "A gas expands such that the product of pressure and volume remains constant (PV = constant). The bulk modulus for the gas in this process is?",
+        "options": [
+            "P",
+            "γP",
+            "P/γ",
+            "Infinity"
+        ],
+        "correct_answer": "P",
+        "category": "physics"
+    },
+    {
+        "id": 27,
+        "question": "A particle is projected with a velocity v at an angle θ. What is the time after which its velocity vector becomes perpendicular to the initial velocity?",
+        "options": [
+            "v sin θ / g",
+            "v cos θ / g",
+            "v / g",
+            "2v sin θ / g"
+        ],
+        "correct_answer": "v sin θ / g",
+        "category": "physics"
+    },
+    {
+        "id": 28,
+        "question": "The moment of inertia of a thin spherical shell of mass M and radius R about any diameter is?",
+        "options": [
+            "2/5 MR²",
+            "2/3 MR²",
+            "MR²",
+            "1/3 MR²"
+        ],
+        "correct_answer": "2/3 MR²",
+        "category": "physics"
+    },
+    {
+        "id": 29,
+        "question": "A Carnot engine operates between temperatures T₁ and T₂. What is the efficiency of the engine?",
+        "options": [
+            "1 - T₂/T₁",
+            "1 + T₂/T₁",
+            "T₂/T₁",
+            "T₁/T₂"
+        ],
+        "correct_answer": "1 - T₂/T₁",
+        "category": "physics"
+    },
+    {
+        "id": 30,
+        "question": "A particle of mass m moving with velocity v collides elastically with a stationary particle of mass 2m. The fraction of the total kinetic energy retained by the first particle is?",
+        "options": [
+            "1/9",
+            "4/9",
+            "5/9",
+            "8/9"
+        ],
+        "correct_answer": "1/9",
+        "category": "physics"
+    },
+    {
+        "id": 31,
+        "question": "The potential energy of a particle in a force field is given by U(x) = ax² - bx. The position of stable equilibrium is at?",
+        "options": [
+            "b/2a",
+            "b/a",
+            "a/b",
+            "2b/a"
+        ],
+        "correct_answer": "b/2a",
+        "category": "physics"
+    },
+    {
+        "id": 32,
+        "question": "The half-life of a radioactive substance is 6 hours. What fraction of the substance remains after 24 hours?",
+        "options": [
+            "1/2",
+            "1/4",
+            "1/8",
+            "1/16"
+        ],
+        "correct_answer": "1/16",
+        "category": "physics"
+    },
+    {
+        "id": 33,
+        "question": "The intensity of radiation emitted by a black body is proportional to the?",
+        "options": [
+            "Temperature",
+            "Square of temperature",
+            "Fourth power of temperature",
+            "Cube of temperature"
+        ],
+        "correct_answer": "Fourth power of temperature",
+        "category": "physics"
+    },
+    {
+        "id": 34,
+        "question": "A parallel plate capacitor is charged and then disconnected from the battery. If the plates are now pulled apart, the potential difference between the plates will?",
+        "options": [
+            "Increase",
+            "Decrease",
+            "Remain constant",
+            "Become zero"
+        ],
+        "correct_answer": "Increase",
+        "category": "physics"
+    },
+    {
+        "id": 35,
+        "question": "The Q-factor of a resonant circuit is?",
+        "options": [
+            "Ratio of energy stored to energy dissipated per cycle",
+            "Inverse of the bandwidth",
+            "Directly proportional to the damping factor",
+            "Independent of frequency"
+        ],
+        "correct_answer": "Ratio of energy stored to energy dissipated per cycle",
+        "category": "physics"
+    },
+    {
+        "id": 36,
+        "question": "A uniform wire of resistance R is bent into a circular loop. The equivalent resistance between two diametrically opposite points is?",
+        "options": [
+            "R/4",
+            "R/2",
+            "R",
+            "2R"
+        ],
+        "correct_answer": "R/4",
+        "category": "physics"
+    },
+    {
+        "id": 37,
+        "question": "The velocity of transverse waves in a stretched string is proportional to?",
+        "options": [
+            "Square root of tension",
+            "Square root of linear mass density",
+            "Tension",
+            "Inverse of tension"
+        ],
+        "correct_answer": "Square root of tension",
+        "category": "physics"
+    },
+    {
+        "id": 38,
+        "question": "The escape velocity from a planet of mass M and radius R is proportional to?",
+        "options": [
+            "√(M/R)",
+            "M/R",
+            "√(R/M)",
+            "R²/M"
+        ],
+        "correct_answer": "√(M/R)",
+        "category": "physics"
+    },
+    {
+        "id": 39,
+        "question": "The electric field at a point due to a uniformly charged infinite plane sheet is?",
+        "options": [
+            "Proportional to the distance from the sheet",
+            "Constant",
+            "Inversely proportional to the square of the distance",
+            "Inversely proportional to the distance"
+        ],
+        "correct_answer": "Constant",
+        "category": "physics"
+    },
+    {
+        "id": 40,
+        "question": "A charged particle enters a magnetic field at an angle θ to the field. The path followed by the particle is a?",
+        "options": [
+            "Straight line",
+            "Circle",
+            "Helix",
+            "Parabola"
+        ],
+        "correct_answer": "Helix",
+        "category": "physics"
+    },
+    {
+        "id": 41,
+        "question": "A block of mass 2 kg is pushed with a force of 10 N on a rough horizontal surface with a coefficient of friction μ = 0.2. What is the acceleration of the block? (Take g = 10 m/s²)",
         "options": [
             "3 m/s²",
             "4 m/s²",
-            "5 m/s²",
-            "6 m/s²"
+            "2 m/s²",
+            "5 m/s²"
         ],
         "correct_answer": "4 m/s²",
         "category": "physics"
     },
     {
-        "id": 3,
-        "question": "If a body is moving in a circle with constant speed, which of the following is true?",
+        "id": 42,
+        "question": "Two capacitors of 6 μF and 12 μF are connected in series. What is their equivalent capacitance?",
         "options": [
-            "It has no acceleration",
-            "It has a constant velocity",
-            "It has centripetal acceleration",
-            "It has no force acting on it"
+            "4 μF",
+            "9 μF",
+            "2 μF",
+            "3 μF"
         ],
-        "correct_answer": "It has centripetal acceleration",
+        "correct_answer": "4 μF",
         "category": "physics"
     },
     {
-        "id": 4,
-        "question": "What is the work done when a force of 10 N is applied on an object and it moves 5 meters in the direction of the force?",
+        "id": 43,
+        "question": "A ball is thrown vertically upwards with a speed of 20 m/s. What is the maximum height it reaches? (Take g = 10 m/s²)",
         "options": [
-            "10 J",
-            "20 J",
-            "50 J",
-            "100 J"
+            "10 m",
+            "20 m",
+            "30 m",
+            "40 m"
         ],
-        "correct_answer": "50 J",
+        "correct_answer": "20 m",
         "category": "physics"
     },
     {
-        "id": 5,
-        "question": "In the photoelectric effect, the energy of the emitted electrons depends on which of the following?",
+        "id": 44,
+        "question": "A wire of length 2 m and radius 1 mm has a resistance of 10 Ω. What is the resistivity of the material? (π = 3.14)",
         "options": [
-            "Intensity of light",
-            "Frequency of light",
-            "Amplitude of light",
-            "Wavelength of light"
+            "1.57 × 10⁻⁷ Ω·m",
+            "3.14 × 10⁻⁷ Ω·m",
+            "6.28 × 10⁻⁷ Ω·m",
+            "7.85 × 10⁻⁷ Ω·m"
         ],
-        "correct_answer": "Frequency of light",
+        "correct_answer": "1.57 × 10⁻⁷ Ω·m",
         "category": "physics"
     },
     {
-        "id": 6,
-        "question": "What is the principle of conservation of momentum?",
+        "id": 45,
+        "question": "A car of mass 1000 kg is moving with a speed of 72 km/h. Calculate its kinetic energy.",
         "options": [
-            "Momentum is always conserved in an isolated system",
-            "Momentum is always conserved if no external force acts",
-            "Momentum is always conserved in every collision",
-            "Momentum is conserved only in elastic collisions"
+            "100 kJ",
+            "200 kJ",
+            "300 kJ",
+            "400 kJ"
         ],
-        "correct_answer": "Momentum is always conserved if no external force acts",
+        "correct_answer": "200 kJ",
         "category": "physics"
     },
     {
-        "id": 7,
-        "question": "The time period of a simple pendulum is independent of which of the following?",
+        "id": 46,
+        "question": "A spring is compressed by 2 cm, and the potential energy stored is 8 J. What is the spring constant?",
         "options": [
-            "Amplitude",
-            "Length of the pendulum",
-            "Acceleration due to gravity",
-            "Mass of the bob"
+            "2000 N/m",
+            "4000 N/m",
+            "8000 N/m",
+            "1000 N/m"
         ],
-        "correct_answer": "Mass of the bob",
+        "correct_answer": "4000 N/m",
         "category": "physics"
     },
     {
-        "id": 8,
-        "question": "Which of the following is the correct unit of electric charge?",
+        "id": 47,
+        "question": "A 220 V, 100 W electric bulb is connected to a 110 V supply. What is the power consumed?",
         "options": [
-            "Joule",
-            "Coulomb",
-            "Ampere",
-            "Volt"
+            "25 W",
+            "50 W",
+            "75 W",
+            "100 W"
         ],
-        "correct_answer": "Coulomb",
+        "correct_answer": "25 W",
         "category": "physics"
     },
     {
-        "id": 9,
-        "question": "What is the work-energy theorem?",
+        "id": 48,
+        "question": "A body of mass 5 kg is rotated in a circle of radius 2 m with an angular velocity of 5 rad/s. What is the centripetal force on the body?",
         "options": [
-            "The work done is equal to the change in kinetic energy",
-            "The work done is equal to the force multiplied by the distance",
-            "The work done is always zero",
-            "The work done is equal to the potential energy"
+            "200 N",
+            "250 N",
+            "300 N",
+            "400 N"
         ],
-        "correct_answer": "The work done is equal to the change in kinetic energy",
+        "correct_answer": "250 N",
         "category": "physics"
     },
     {
-        "id": 10,
-        "question": "In a conductor, the electric field and current are related by Ohm's law. What is the relationship?",
+        "id": 49,
+        "question": "The velocity of sound in air is 340 m/s. A train approaches a stationary observer with a speed of 36 km/h. If the emitted frequency of the whistle is 500 Hz, what is the apparent frequency heard by the observer? (Speed of sound = 340 m/s)",
         "options": [
-            "V = IR",
-            "V = I/R",
-            "V = I^2R",
-            "V = R/I"
+            "510 Hz",
+            "520 Hz",
+            "530 Hz",
+            "540 Hz"
         ],
-        "correct_answer": "V = IR",
+        "correct_answer": "510 Hz",
         "category": "physics"
     },
     {
-        "id": 11,
-        "question": "What is the atomic number of an element that has 18 electrons?",
+        "id": 50,
+        "question": "An object of mass 1 kg is dropped from a height of 20 m. What is the velocity just before hitting the ground? (Take g = 10 m/s²)",
         "options": [
-            "16",
-            "17",
-            "18",
-            "19"
+            "10 m/s",
+            "15 m/s",
+            "20 m/s",
+            "25 m/s"
         ],
-        "correct_answer": "18",
+        "correct_answer": "20 m/s",
+        "category": "physics"
+    },
+    {
+        "id": 51,
+        "question": "What is the hybridization of carbon in methane (CH4)?",
+        "options": [
+            "sp",
+            "sp2",
+            "sp3",
+            "sp3d"
+        ],
+        "correct_answer": "sp3",
         "category": "chemistry"
     },
     {
-        "id": 12,
-        "question": "Which gas is evolved when an acid reacts with a metal?",
+        "id": 52,
+        "question": "What is the chemical formula of washing soda?",
         "options": [
-            "Oxygen",
-            "Nitrogen",
-            "Hydrogen",
-            "Carbon dioxide"
+            "NaHCO3",
+            "Na2CO3·10H2O",
+            "CaCO3",
+            "NaOH"
         ],
-        "correct_answer": "Hydrogen",
+        "correct_answer": "Na2CO3·10H2O",
         "category": "chemistry"
     },
     {
-        "id": 13,
-        "question": "Which of the following is an example of a covalent compound?",
+        "id": 53,
+        "question": "Which of the following is a strong acid?",
         "options": [
-            "NaCl",
-            "MgO",
-            "CO2",
-            "Na2O"
+            "H2CO3",
+            "HCl",
+            "CH3COOH",
+            "NH4OH"
         ],
-        "correct_answer": "CO2",
+        "correct_answer": "HCl",
         "category": "chemistry"
     },
     {
-        "id": 14,
-        "question": "What is the molecular formula of glucose?",
+        "id": 54,
+        "question": "Which of the following has the highest pH?",
         "options": [
-            "C6H12O6",
-            "C6H6O6",
-            "C5H10O5",
-            "C6H12O5"
+            "HCl",
+            "NaOH",
+            "NH3",
+            "CH3COOH"
         ],
-        "correct_answer": "C6H12O6",
+        "correct_answer": "NaOH",
         "category": "chemistry"
     },
     {
-        "id": 15,
-        "question": "Which of the following is an example of an alkali metal?",
+        "id": 55,
+        "question": "What is the IUPAC name of CH3-CH2-OH?",
         "options": [
-            "Sodium",
+            "Ethanol",
+            "Methanol",
+            "Propanol",
+            "Butanol"
+        ],
+        "correct_answer": "Ethanol",
+        "category": "chemistry"
+    },
+    {
+        "id": 56,
+        "question": "What type of isomerism is exhibited by C2H5OH and CH3OCH3?",
+        "options": [
+            "Chain isomerism",
+            "Functional group isomerism",
+            "Position isomerism",
+            "Tautomerism"
+        ],
+        "correct_answer": "Functional group isomerism",
+        "category": "chemistry"
+    },
+    {
+        "id": 57,
+        "question": "Which of the following is not a colligative property?",
+        "options": [
+            "Boiling point elevation",
+            "Vapor pressure lowering",
+            "Osmotic pressure",
+            "Viscosity"
+        ],
+        "correct_answer": "Viscosity",
+        "category": "chemistry"
+    },
+    {
+        "id": 58,
+        "question": "What is the oxidation state of sulfur in H2SO4?",
+        "options": [
+            "+4",
+            "-2",
+            "+6",
+            "+2"
+        ],
+        "correct_answer": "+6",
+        "category": "chemistry"
+    },
+    {
+        "id": 59,
+        "question": "Which law states that equal volumes of all gases contain the same number of molecules at constant temperature and pressure?",
+        "options": [
+            "Boyle's Law",
+            "Avogadro's Law",
+            "Charles's Law",
+            "Gay-Lussac's Law"
+        ],
+        "correct_answer": "Avogadro's Law",
+        "category": "chemistry"
+    },
+    {
+        "id": 60,
+        "question": "Which of the following elements is a d-block element?",
+        "options": [
             "Calcium",
-            "Magnesium",
-            "Iron"
+            "Iron",
+            "Sulfur",
+            "Chlorine"
         ],
-        "correct_answer": "Sodium",
+        "correct_answer": "Iron",
         "category": "chemistry"
     },
     {
-        "id": 16,
-        "question": "What is the pH of a neutral solution?",
-        "options": [
-            "0",
-            "7",
-            "14",
-            "5"
-        ],
-        "correct_answer": "7",
-        "category": "chemistry"
-    },
-    {
-        "id": 17,
-        "question": "Which of the following elements has the highest electronegativity?",
+        "id": 61,
+        "question": "Which of the following is the most electronegative element?",
         "options": [
             "Oxygen",
             "Fluorine",
@@ -204,104 +732,992 @@
         "category": "chemistry"
     },
     {
-        "id": 18,
-        "question": "What is the name of the process where a solid turns directly into a gas?",
+        "id": 62,
+        "question": "What is the major product of the reaction between ethene and bromine?",
         "options": [
-            "Sublimation",
-            "Evaporation",
-            "Condensation",
-            "Fusion"
+            "Bromoethane",
+            "Dibromoethane",
+            "Ethanol",
+            "Ethyl bromide"
         ],
-        "correct_answer": "Sublimation",
+        "correct_answer": "Dibromoethane",
         "category": "chemistry"
     },
     {
-        "id": 19,
-        "question": "Which of the following is the correct formula for sulfuric acid?",
+        "id": 63,
+        "question": "Which of the following is a greenhouse gas?",
+        "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Methane",
+            "Helium"
+        ],
+        "correct_answer": "Methane",
+        "category": "chemistry"
+    },
+    {
+        "id": 64,
+        "question": "Which of the following is an example of a non-electrolyte?",
+        "options": [
+            "NaCl",
+            "HCl",
+            "Glucose",
+            "NH4OH"
+        ],
+        "correct_answer": "Glucose",
+        "category": "chemistry"
+    },
+    {
+        "id": 65,
+        "question": "What is the bond angle in a water molecule?",
+        "options": [
+            "109.5 degrees",
+            "120 degrees",
+            "104.5 degrees",
+            "180 degrees"
+        ],
+        "correct_answer": "104.5 degrees",
+        "category": "chemistry"
+    },
+    {
+        "id": 66,
+        "question": "Which of the following is the functional group of an aldehyde?",
+        "options": [
+            "-OH",
+            "-COOH",
+            "-CHO",
+            "-CO-"
+        ],
+        "correct_answer": "-CHO",
+        "category": "chemistry"
+    },
+    {
+        "id": 67,
+        "question": "Which of the following compounds exhibits hydrogen bonding?",
+        "options": [
+            "HCl",
+            "CH4",
+            "H2O",
+            "CCl4"
+        ],
+        "correct_answer": "H2O",
+        "category": "chemistry"
+    },
+    {
+        "id": 68,
+        "question": "What is the molecular formula of benzene?",
+        "options": [
+            "C6H12",
+            "C6H6",
+            "C5H10",
+            "C7H8"
+        ],
+        "correct_answer": "C6H6",
+        "category": "chemistry"
+    },
+    {
+        "id": 69,
+        "question": "Which of the following is a noble gas?",
+        "options": [
+            "Oxygen",
+            "Hydrogen",
+            "Helium",
+            "Nitrogen"
+        ],
+        "correct_answer": "Helium",
+        "category": "chemistry"
+    },
+    {
+        "id": 70,
+        "question": "Which of the following compounds is aromatic?",
+        "options": [
+            "Cyclohexane",
+            "Toluene",
+            "Ethene",
+            "Propane"
+        ],
+        "correct_answer": "Toluene",
+        "category": "chemistry"
+    },
+    {
+        "id": 71,
+        "question": "Which of the following compounds exhibits resonance?",
+        "options": [
+            "CO2",
+            "CH4",
+            "C6H6",
+            "H2O"
+        ],
+        "correct_answer": "C6H6",
+        "category": "chemistry"
+    },
+    {
+        "id": 72,
+        "question": "What is the molecular geometry of SF6?",
+        "options": [
+            "Octahedral",
+            "Tetrahedral",
+            "Trigonal planar",
+            "Linear"
+        ],
+        "correct_answer": "Octahedral",
+        "category": "chemistry"
+    },
+    {
+        "id": 73,
+        "question": "Which of the following is the strongest oxidizing agent?",
+        "options": [
+            "O2",
+            "Cl2",
+            "H2O2",
+            "KMnO4"
+        ],
+        "correct_answer": "KMnO4",
+        "category": "chemistry"
+    },
+    {
+        "id": 74,
+        "question": "What is the bond order of O2 molecule?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct_answer": "2",
+        "category": "chemistry"
+    },
+    {
+        "id": 75,
+        "question": "Which of the following reaction types involves the rearrangement of atoms without changing the oxidation states?",
+        "options": [
+            "Substitution",
+            "Addition",
+            "Elimination",
+            "Rearrangement"
+        ],
+        "correct_answer": "Rearrangement",
+        "category": "chemistry"
+    },
+    {
+        "id": 76,
+        "question": "What is the IUPAC name of the compound (CH3)2C=CH2?",
+        "options": [
+            "2-Methylpropene",
+            "Propene",
+            "Isobutene",
+            "But-2-ene"
+        ],
+        "correct_answer": "Isobutene",
+        "category": "chemistry"
+    },
+    {
+        "id": 77,
+        "question": "Which of the following elements does not exhibit allotropy?",
+        "options": [
+            "Carbon",
+            "Oxygen",
+            "Sulfur",
+            "Phosphorus"
+        ],
+        "correct_answer": "Oxygen",
+        "category": "chemistry"
+    },
+    {
+        "id": 78,
+        "question": "Which of the following compounds is a superacid?",
         "options": [
             "H2SO4",
-            "H2SO3",
-            "H2S",
-            "SO2"
+            "HF",
+            "HCl",
+            "FSO3H"
         ],
-        "correct_answer": "H2SO4",
+        "correct_answer": "FSO3H",
         "category": "chemistry"
     },
     {
-        "id": 20,
-        "question": "What type of bond is formed when two atoms share electrons?",
+        "id": 79,
+        "question": "What is the principle of Le Chatelier's Principle?",
         "options": [
-            "Ionic bond",
-            "Covalent bond",
-            "Metallic bond",
-            "Hydrogen bond"
+            "The equilibrium will shift to counteract changes in concentration, temperature, or pressure.",
+            "The reaction will always proceed in the forward direction.",
+            "The reaction will proceed in the direction that increases the pressure.",
+            "The reaction rate is inversely proportional to the concentration."
         ],
-        "correct_answer": "Covalent bond",
+        "correct_answer": "The equilibrium will shift to counteract changes in concentration, temperature, or pressure.",
         "category": "chemistry"
     },
     {
-        "id": 21,
-        "question": "What is the value of \\( \\lim_{x \\to 0} \\frac{\\sin x}{x} \\)?",
+        "id": 80,
+        "question": "What is the enthalpy change for the reaction: N2(g) + 3H2(g) → 2NH3(g)?",
+        "options": [
+            "Positive",
+            "Negative",
+            "Zero",
+            "Impossible to determine without more information"
+        ],
+        "correct_answer": "Negative",
+        "category": "chemistry"
+    },
+    {
+        "id": 81,
+        "question": "Which of the following compounds exhibits the highest dipole moment?",
+        "options": [
+            "CO2",
+            "CH3Cl",
+            "CCl4",
+            "H2O"
+        ],
+        "correct_answer": "H2O",
+        "category": "chemistry"
+    },
+    {
+        "id": 82,
+        "question": "What is the correct electron configuration for the ground state of a chlorine atom?",
+        "options": [
+            "[Ne] 3s² 3p⁵",
+            "[Ne] 3s² 3p⁶",
+            "[He] 2s² 2p⁶ 3s² 3p²",
+            "[Ar] 4s² 3d¹⁰ 4p⁵"
+        ],
+        "correct_answer": "[Ne] 3s² 3p⁵",
+        "category": "chemistry"
+    },
+    {
+        "id": 83,
+        "question": "Which of the following reactions is an example of a disproportionation reaction?",
+        "options": [
+            "2NaCl → 2Na + Cl2",
+            "Cl2 + H2O → HCl + HOCl",
+            "H2 + O2 → H2O",
+            "Na + Cl2 → NaCl"
+        ],
+        "correct_answer": "Cl2 + H2O → HCl + HOCl",
+        "category": "chemistry"
+    },
+    {
+        "id": 84,
+        "question": "What is the most stable oxidation state of the element osmium (Os)?",
+        "options": [
+            "+2",
+            "+4",
+            "+6",
+            "+8"
+        ],
+        "correct_answer": "+8",
+        "category": "chemistry"
+    },
+    {
+        "id": 85,
+        "question": "Which of the following is the most basic oxide?",
+        "options": [
+            "CO2",
+            "SO3",
+            "Na2O",
+            "Al2O3"
+        ],
+        "correct_answer": "Na2O",
+        "category": "chemistry"
+    },
+    {
+        "id": 86,
+        "question": "What is the bond angle in a trigonal bipyramidal molecular geometry?",
+        "options": [
+            "90° and 120°",
+            "90° and 180°",
+            "120° and 180°",
+            "109.5°"
+        ],
+        "correct_answer": "90° and 120°",
+        "category": "chemistry"
+    },
+    {
+        "id": 87,
+        "question": "Which of the following compounds contains a 3-center, 2-electron bond?",
+        "options": [
+            "C2H2",
+            "B2H6",
+            "H2O",
+            "CH4"
+        ],
+        "correct_answer": "B2H6",
+        "category": "chemistry"
+    },
+    {
+        "id": 88,
+        "question": "What is the hybridization of the central atom in the IO3⁻ ion?",
+        "options": [
+            "sp",
+            "sp²",
+            "sp³",
+            "sp³d"
+        ],
+        "correct_answer": "sp³d",
+        "category": "chemistry"
+    },
+    {
+        "id": 89,
+        "question": "Which of the following compounds is an example of a ligand in coordination chemistry?",
+        "options": [
+            "NaCl",
+            "NH3",
+            "H2O",
+            "Cl2"
+        ],
+        "correct_answer": "NH3",
+        "category": "chemistry"
+    },
+    {
+        "id": 90,
+        "question": "What is the value of the equilibrium constant (Kc) for the reaction: 2NO(g) + O2(g) ⇌ 2NO2(g), given the following information: The partial pressures at equilibrium are P(NO) = 0.20 atm, P(O2) = 0.10 atm, and P(NO2) = 0.30 atm?",
+        "options": [
+            "2.0",
+            "3.0",
+            "4.0",
+            "5.0"
+        ],
+        "correct_answer": "2.0",
+        "category": "chemistry"
+    },
+    {
+        "id": 91,
+        "question": "Which of the following compounds is known to exhibit a six-coordinate, octahedral geometry in its complex form?",
+        "options": [
+            "NiCl2",
+            "CoCl3",
+            "CuSO4",
+            "Fe(CO)5"
+        ],
+        "correct_answer": "Fe(CO)5",
+        "category": "chemistry"
+    },
+    {
+        "id": 92,
+        "question": "In the reaction between potassium permanganate (KMnO4) and oxalic acid (H2C2O4), what is the oxidation state of manganese in the product Mn2+?",
+        "options": [
+            "+2",
+            "+4",
+            "+6",
+            "+7"
+        ],
+        "correct_answer": "+2",
+        "category": "chemistry"
+    },
+    {
+        "id": 93,
+        "question": "Which of the following molecules is an example of a molecule that exhibits chirality?",
+        "options": [
+            "CH4",
+            "CH3Cl",
+            "CCl4",
+            "C2H6"
+        ],
+        "correct_answer": "CH3Cl",
+        "category": "chemistry"
+    },
+    {
+        "id": 94,
+        "question": "What is the most likely product of the reaction between an alkene and ozone (ozonolysis)?",
+        "options": [
+            "Alkene",
+            "Aldehyde",
+            "Ketone",
+            "Carboxylic acid"
+        ],
+        "correct_answer": "Aldehyde",
+        "category": "chemistry"
+    },
+    {
+        "id": 95,
+        "question": "Which of the following statements is true about the relationship between the enthalpy change (ΔH) and the bond dissociation energy (D) for a chemical reaction?",
+        "options": [
+            "ΔH = Σ(D of bonds broken) - Σ(D of bonds formed)",
+            "ΔH = Σ(D of bonds formed) - Σ(D of bonds broken)",
+            "ΔH = Σ(D of bonds broken)",
+            "ΔH = Σ(D of bonds formed)"
+        ],
+        "correct_answer": "ΔH = Σ(D of bonds broken) - Σ(D of bonds formed)",
+        "category": "chemistry"
+    },
+    {
+        "id": 96,
+        "question": "What is the symmetry point group of a molecule with a linear shape and an inversion center?",
+        "options": [
+            "C∞v",
+            "D∞h",
+            "C2v",
+            "D2h"
+        ],
+        "correct_answer": "D∞h",
+        "category": "chemistry"
+    },
+    {
+        "id": 97,
+        "question": "Which of the following reactions occurs under acidic conditions and is an example of a nucleophilic substitution reaction?",
+        "options": [
+            "Alkene hydration",
+            "Aldehyde reduction",
+            "SN1 reaction",
+            "E1 elimination"
+        ],
+        "correct_answer": "SN1 reaction",
+        "category": "chemistry"
+    },
+    {
+        "id": 98,
+        "question": "In a solid-state reaction, the formation of a crystal lattice can be described by which type of lattice structure?",
+        "options": [
+            "Cubic lattice",
+            "Hexagonal lattice",
+            "Tetragonal lattice",
+            "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "category": "chemistry"
+    },
+    {
+        "id": 99,
+        "question": "Which of the following is the correct order of increasing atomic radius among the following elements: Li, Na, K, Rb?",
+        "options": [
+            "Li < Na < K < Rb",
+            "Rb < K < Na < Li",
+            "Na < Li < K < Rb",
+            "K < Na < Li < Rb"
+        ],
+        "correct_answer": "Li < Na < K < Rb",
+        "category": "chemistry"
+    },
+    {
+        "id": 100,
+        "question": "What is the bond order in the O2 molecule, based on molecular orbital theory?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correct_answer": "2",
+        "category": "chemistry"
+    },
+    {
+        "id": 101,
+        "question": "If the equation of the ellipse is 4x^2 + 9y^2 = 36, then the length of the major axis is?",
+        "options": [
+            "6",
+            "4",
+            "12",
+            "9"
+        ],
+        "correct_answer": "6",
+        "category": "math"
+    },
+    {
+        "id": 102,
+        "question": "The value of the limit lim(x→0) (sinx - x) / x^3 is?",
         "options": [
             "0",
             "1",
             "∞",
-            "Does not exist"
+            "-1"
         ],
-        "correct_answer": "1",
-        "category": "maths"
+        "correct_answer": "0",
+        "category": "math"
     },
     {
-        "id": 22,
-        "question": "The area of the region bounded by the curve \\( y = x^2 \\) and the x-axis from \\( x = -2 \\) to \\( x = 2 \\) is:",
+        "id": 103,
+        "question": "A particle moves along a straight line such that its position at time t is given by x(t) = t^3 - 6t^2 + 9t. The velocity of the particle at t = 2 is?",
         "options": [
-            "8",
-            "4",
-            "16",
-            "12"
+            "0",
+            "3",
+            "6",
+            "-3"
         ],
-        "correct_answer": "8",
-        "category": "maths"
+        "correct_answer": "0",
+        "category": "math"
     },
     {
-        "id": 23,
-        "question": "If \\( \\tan \\theta = 3 \\), what is the value of \\( \\sin \\theta \\) and \\( \\cos \\theta \\)?",
-        "options": [
-            "\\( \\sin \\theta = \\frac{3}{\\sqrt{10}}, \\cos \\theta = \\frac{1}{\\sqrt{10}} \\)",
-            "\\( \\sin \\theta = \\frac{1}{\\sqrt{10}}, \\cos \\theta = \\frac{3}{\\sqrt{10}} \\)",
-            "\\( \\sin \\theta = \\frac{2}{\\sqrt{10}}, \\cos \\theta = \\frac{3}{\\sqrt{10}} \\)",
-            "\\( \\sin \\theta = \\frac{3}{\\sqrt{5}}, \\cos \\theta = \\frac{2}{\\sqrt{5}} \\)"
-        ],
-        "correct_answer": "\\( \\sin \\theta = \\frac{3}{\\sqrt{10}}, \\cos \\theta = \\frac{1}{\\sqrt{10}} \\)",
-        "category": "maths"
-    },
-    {
-        "id": 24,
-        "question": "Find the derivative of \\( f(x) = x^3 + 5x^2 + 6x \\).",
-        "options": [
-            "\\( 3x^2 + 10x + 6 \\)",
-            "\\( 3x^2 + 10x \\)",
-            "\\( 3x^2 + 6x + 6 \\)",
-            "\\( 2x^2 + 10x + 6 \\)"
-        ],
-        "correct_answer": "\\( 3x^2 + 10x + 6 \\)",
-        "category": "maths"
-    },
-    {
-        "id": 25,
-        "question": "The sum of the first 20 terms of an arithmetic progression is 200. What is the first term of the progression?",
+        "id": 104,
+        "question": "The sum of the roots of the equation x^2 - 5x + 6 = 0 is?",
         "options": [
             "5",
-            "10",
-            "15",
-            "20"
+            "-5",
+            "6",
+            "-6"
         ],
-        "correct_answer": "10",
-        "category": "maths"
+        "correct_answer": "5",
+        "category": "math"
     },
     {
-        "id": 26,
-        "question": "If the sum of the roots of the quadratic equation \\( ax^2 + bx + c = 0 \\) is 5 and their product is 6, what is the value of a?",
+        "id": 105,
+        "question": "The function f(x) = x^2 + 2x + 1 is a",
+        "options": [
+            "Linear function",
+            "Quadratic function",
+            "Exponential function",
+            "Logarithmic function"
+        ],
+        "correct_answer": "Quadratic function",
+        "category": "math"
+    },
+    {
+        "id": 106,
+        "question": "If A and B are two square matrices of order 3, then the number of elements in the matrix A + B is?",
+        "options": [
+            "3",
+            "6",
+            "9",
+            "None of these"
+        ],
+        "correct_answer": "9",
+        "category": "math"
+    },
+    {
+        "id": 107,
+        "question": "The area of the region bounded by y = x^2, y = 0, and x = 1 is?",
+        "options": [
+            "1/3",
+            "1/2",
+            "1",
+            "2"
+        ],
+        "correct_answer": "1/3",
+        "category": "math"
+    },
+    {
+        "id": 108,
+        "question": "If the roots of the quadratic equation ax^2 + bx + c = 0 are real and distinct, then the discriminant is?",
+        "options": [
+            "b^2 - 4ac > 0",
+            "b^2 - 4ac = 0",
+            "b^2 - 4ac < 0",
+            "None of these"
+        ],
+        "correct_answer": "b^2 - 4ac > 0",
+        "category": "math"
+    },
+    {
+        "id": 109,
+        "question": "The solution to the system of equations x + y = 5 and 2x - y = 3 is?",
+        "options": [
+            "(2, 3)",
+            "(3, 2)",
+            "(4, 1)",
+            "(1, 4)"
+        ],
+        "correct_answer": "(3, 2)",
+        "category": "math"
+    },
+    {
+        "id": 110,
+        "question": "The sum of the infinite geometric series 1 + 1/2 + 1/4 + 1/8 + ... is?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "∞"
+        ],
+        "correct_answer": "2",
+        "category": "math"
+    },
+    {
+        "id": 111,
+        "question": "The value of the integral ∫ (0 to π/2) sin^3(x) dx is?",
+        "options": [
+            "1/2",
+            "2/3",
+            "3/4",
+            "1/4"
+        ],
+        "correct_answer": "1/2",
+        "category": "math"
+    },
+    {
+        "id": 112,
+        "question": "If f(x) = x^2 + 2x + 3, then the value of f'(x) at x = 1 is?",
+        "options": [
+            "2",
+            "4",
+            "3",
+            "1"
+        ],
+        "correct_answer": "4",
+        "category": "math"
+    },
+    {
+        "id": 113,
+        "question": "The eigenvalues of the matrix [[1, 2], [3, 4]] are?",
+        "options": [
+            "5, -1",
+            "3, 2",
+            "4, 1",
+            "-1, 5"
+        ],
+        "correct_answer": "5, -1",
+        "category": "math"
+    },
+    {
+        "id": 114,
+        "question": "The number of solutions of the equation |x - 3| = 5 is?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "None"
+        ],
+        "correct_answer": "2",
+        "category": "math"
+    },
+    {
+        "id": 115,
+        "question": "The value of the sum of the series 1 + 1/2! + 1/3! + 1/4! + ... is?",
+        "options": [
+            "e",
+            "2",
+            "π",
+            "1"
+        ],
+        "correct_answer": "e",
+        "category": "math"
+    },
+    {
+        "id": 116,
+        "question": "For a function f(x) = x^3 - 3x^2 + 2x, the point where the function has a local minimum is?",
+        "options": [
+            "x = 0",
+            "x = 1",
+            "x = 2",
+            "x = -1"
+        ],
+        "correct_answer": "x = 1",
+        "category": "math"
+    },
+    {
+        "id": 117,
+        "question": "If the roots of the equation x^2 - 2px + p^2 = 0 are in the ratio 2:3, then p is?",
+        "options": [
+            "2",
+            "3",
+            "5",
+            "4"
+        ],
+        "correct_answer": "3",
+        "category": "math"
+    },
+    {
+        "id": 118,
+        "question": "The area of the region enclosed by the curve y = x^2, the x-axis and the line x = 2 is?",
+        "options": [
+            "4/3",
+            "8/3",
+            "4",
+            "8"
+        ],
+        "correct_answer": "8/3",
+        "category": "math"
+    },
+    {
+        "id": 119,
+        "question": "The sum of the infinite geometric series 1 - 2 + 4 - 8 + ... is?",
+        "options": [
+            "-1/3",
+            "1/3",
+            "2",
+            "0"
+        ],
+        "correct_answer": "-1/3",
+        "category": "math"
+    },
+    {
+        "id": 120,
+        "question": "If a sequence is defined by a_1 = 1 and a_n = 2a_{n-1} + 1, then the general term a_n is?",
+        "options": [
+            "2^n - 1",
+            "2^n + 1",
+            "2n - 1",
+            "n^2 + 1"
+        ],
+        "correct_answer": "2^n - 1",
+        "category": "math"
+    },
+    {
+        "id": 121,
+        "question": "If the roots of the equation x^4 - 4x^3 + 6x^2 - 4x + 1 = 0 are α, β, γ, δ, then the value of (α + β + γ + δ) is?",
+        "options": [
+            "4",
+            "2",
+            "0",
+            "-2"
+        ],
+        "correct_answer": "4",
+        "category": "math"
+    },
+    {
+        "id": 122,
+        "question": "The equation of the tangent to the curve y = x^3 at the point (2, 8) is?",
+        "options": [
+            "y - 8 = 12(x - 2)",
+            "y - 8 = 6(x - 2)",
+            "y - 8 = 3(x - 2)",
+            "y - 8 = 4(x - 2)"
+        ],
+        "correct_answer": "y - 8 = 12(x - 2)",
+        "category": "math"
+    },
+    {
+        "id": 123,
+        "question": "The number of distinct real solutions of the equation sin(x) = cos(x) is?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "Infinite"
+        ],
+        "correct_answer": "1",
+        "category": "math"
+    },
+    {
+        "id": 124,
+        "question": "The value of the double integral ∫∫ (0 to 1) (0 to 1) e^(x^2 + y^2) dxdy is?",
+        "options": [
+            "0",
+            "1",
+            "e",
+            "Cannot be expressed in elementary functions"
+        ],
+        "correct_answer": "Cannot be expressed in elementary functions",
+        "category": "math"
+    },
+    {
+        "id": 125,
+        "question": "Let A be a 3x3 matrix with eigenvalues 2, -1, and 3. The trace of A is?",
+        "options": [
+            "4",
+            "3",
+            "5",
+            "6"
+        ],
+        "correct_answer": "4",
+        "category": "math"
+    },
+    {
+        "id": 126,
+        "question": "The number of solutions of the equation tan(x) = x for 0 ≤ x ≤ π is?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "Infinite"
+        ],
+        "correct_answer": "1",
+        "category": "math"
+    },
+    {
+        "id": 127,
+        "question": "The value of the integral ∫ (1 to ∞) (1/(x^2 + 1)) dx is?",
+        "options": [
+            "π/2",
+            "1",
+            "∞",
+            "0"
+        ],
+        "correct_answer": "π/2",
+        "category": "math"
+    },
+    {
+        "id": 128,
+        "question": "If f(x) = x^2 + 2x + 1 and g(x) = 1/x, then the value of (f∘g)(x) is?",
+        "options": [
+            "(x^2 + 2x + 1)/x",
+            "(x^2 + 1)/x",
+            "(x^2 + 2)/x",
+            "(x^2 + 2x)/x"
+        ],
+        "correct_answer": "(x^2 + 2x + 1)/x",
+        "category": "math"
+    },
+    {
+        "id": 129,
+        "question": "The number of distinct real solutions of the equation x^5 - 5x^3 + 4x = 0 is?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct_answer": "3",
+        "category": "math"
+    },
+    {
+        "id": 130,
+        "question": "If the sum of the first n terms of the series 1 + 3 + 9 + 27 + ... is 121, then the value of n is?",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correct_answer": "5",
+        "category": "math"
+    },
+    {
+        "id": 131,
+        "question": "If the matrix A = [[1, 2], [3, 4]] and B = [[4, 3], [2, 1]], what is the determinant of A * B?",
+        "options": [
+            "10",
+            "20",
+            "30",
+            "40"
+        ],
+        "correct_answer": "20",
+        "category": "math"
+    },
+    {
+        "id": 132,
+        "question": "The sum of the roots of the equation x^3 - 6x^2 + 11x - 6 = 0 is?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "3"
+        ],
+        "correct_answer": "6",
+        "category": "math"
+    },
+    {
+        "id": 133,
+        "question": "If tan(θ) = 3/4, find the value of sin(2θ).",
+        "options": [
+            "24/25",
+            "12/25",
+            "9/25",
+            "6/25"
+        ],
+        "correct_answer": "24/25",
+        "category": "math"
+    },
+    {
+        "id": 134,
+        "question": "The integral ∫ (0 to π) cos(x) dx is equal to?",
+        "options": [
+            "0",
+            "π",
+            "2",
+            "1"
+        ],
+        "correct_answer": "0",
+        "category": "math"
+    },
+    {
+        "id": 135,
+        "question": "If the curve y = x^3 - 3x^2 + 2x has a point of inflection at x = 1, then the value of y at this point is?",
+        "options": [
+            "0",
+            "1",
+            "-1",
+            "2"
+        ],
+        "correct_answer": "0",
+        "category": "math"
+    },
+    {
+        "id": 136,
+        "question": "Find the value of the limit lim(x → 0) (sin(x) - x)/x^3.",
+        "options": [
+            "0",
+            "1",
+            "-1",
+            "∞"
+        ],
+        "correct_answer": "0",
+        "category": "math"
+    },
+    {
+        "id": 137,
+        "question": "The sum of the infinite geometric series 1 + 2 + 4 + 8 + ... is?",
+        "options": [
+            "∞",
+            "1",
+            "2",
+            "4"
+        ],
+        "correct_answer": "∞",
+        "category": "math"
+    },
+    {
+        "id": 138,
+        "question": "If the quadratic equation x^2 - 5x + k = 0 has roots in arithmetic progression, find the value of k.",
+        "options": [
+            "7",
+            "5",
+            "3",
+            "9"
+        ],
+        "correct_answer": "9",
+        "category": "math"
+    },
+    {
+        "id": 139,
+        "question": "Find the value of the integral ∫ (0 to π/2) tan(x) dx.",
+        "options": [
+            "∞",
+            "π",
+            "1",
+            "2"
+        ],
+        "correct_answer": "∞",
+        "category": "math"
+    },
+    {
+        "id": 140,
+        "question": "What is the value of the sum of the series 1 + 1/2 + 1/4 + 1/8 + ... up to infinity?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "correct_answer": "2",
+        "category": "math"
+    },
+    {
+        "id": 141,
+        "question": "Find the value of the integral ∫ (0 to π) (sin(x))^2 dx.",
+        "options": [
+            "π/2",
+            "π",
+            "2π",
+            "π/4"
+        ],
+        "correct_answer": "π/2",
+        "category": "math"
+    },
+    {
+        "id": 142,
+        "question": "If α and β are the roots of the equation x^2 - 4x + 5 = 0, then find the value of α^3 + β^3.",
+        "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "correct_answer": "17",
+        "category": "math"
+    },
+    {
+        "id": 143,
+        "question": "Find the value of the limit lim(x → 0) (e^x - 1 - x)/x^2.",
+        "options": [
+            "1/2",
+            "1",
+            "0",
+            "2"
+        ],
+        "correct_answer": "1/2",
+        "category": "math"
+    },
+    {
+        "id": 144,
+        "question": "The number of real solutions of the equation sin(x) = x for x ∈ [0, 2π] is?",
         "options": [
             "1",
             "2",
@@ -309,583 +1725,679 @@
             "4"
         ],
         "correct_answer": "1",
-        "category": "maths"
+        "category": "math"
     },
     {
-        "id": 27,
-        "question": "What is the value of \\( \\int_0^2 x^2 dx \\)?",
+        "id": 145,
+        "question": "If the function f(x) = x^3 - 6x^2 + 12x - 8 has a local minimum at x = 2, find the value of f(2).",
         "options": [
-            "8",
+            "0",
             "4",
+            "8",
+            "16"
+        ],
+        "correct_answer": "0",
+        "category": "math"
+    },
+    {
+        "id": 146,
+        "question": "Find the sum of the series 1 + 2^2 + 3^3 + 4^4 + ... + 10^10.",
+        "options": [
+            "1.1 × 10^10",
+            "1.05 × 10^10",
+            "1 × 10^10",
+            "0.95 × 10^10"
+        ],
+        "correct_answer": "1 × 10^10",
+        "category": "math"
+    },
+    {
+        "id": 147,
+        "question": "If x = 2 + 3i and y = 4 - i, find the modulus of the product x * y.",
+        "options": [
+            "√26",
+            "√50",
+            "√34",
+            "√13"
+        ],
+        "correct_answer": "√34",
+        "category": "math"
+    },
+    {
+        "id": 148,
+        "question": "If the roots of the equation x^3 - 3x^2 + 4x - 2 = 0 are α, β, and γ, then find the value of α^3 + β^3 + γ^3.",
+        "options": [
             "6",
-            "2"
+            "5",
+            "4",
+            "3"
         ],
-        "correct_answer": "8",
-        "category": "maths"
+        "correct_answer": "6",
+        "category": "math"
     },
     {
-        "id": 28,
-        "question": "What is the equation of the tangent to the curve \\( y = x^2 + 4x \\) at the point (1, 5)?",
+        "id": 149,
+        "question": "If a line intersects the parabola y^2 = 4x at two points, the distance between these points is equal to 2. Find the equation of the line.",
         "options": [
-            "y = 2x + 3",
-            "y = 2x + 4",
-            "y = 2x + 5",
-            "y = 2x + 6"
+            "y = 2x + 1",
+            "y = 2x - 1",
+            "y = x + 2",
+            "y = x - 2"
         ],
-        "correct_answer": "y = 2x + 3",
-        "category": "maths"
+        "correct_answer": "y = 2x - 1",
+        "category": "math"
     },
     {
-        "id": 29,
-        "question": "Find the value of \\( \\cos 45^\\circ \\)",
+        "id": 150,
+        "question": "Find the derivative of the function f(x) = ln(x^2 + 2x + 1).",
         "options": [
-            "1/2",
-            "1/√2",
-            "√2/2",
-            "√3/2"
+            "2x/(x^2 + 2x + 1)",
+            "2/(x^2 + 2x + 1)",
+            "1/(x^2 + 2x + 1)",
+            "2x/(x^2 + 1)"
         ],
-        "correct_answer": "1/√2",
-        "category": "maths"
+        "correct_answer": "2x/(x^2 + 2x + 1)",
+        "category": "math"
     },
     {
-        "id": 30,
-        "question": "The solution of the equation \\( x^2 + 6x + 9 = 0 \\) is:",
+        "id": 151,
+        "question": "Which of the following is a characteristic feature of a prokaryotic cell?",
         "options": [
-            "x = -3",
-            "x = 3",
-            "x = 0",
-            "x = 6"
+            "Presence of membrane-bound organelles",
+            "Presence of a well-defined nucleus",
+            "Presence of ribosomes",
+            "Lack of a cell membrane"
         ],
-        "correct_answer": "x = -3",
-        "category": "maths"
+        "correct_answer": "Presence of ribosomes",
+        "category": "biology"
     },
     {
-        "id": 31,
-        "question": "What is the name of the organ that produces insulin in the human body?",
+        "id": 152,
+        "question": "The heart of a frog has how many chambers?",
         "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct_answer": "3",
+        "category": "biology"
+    },
+    {
+        "id": 153,
+        "question": "Which of the following is not a part of the human excretory system?",
+        "options": [
+            "Kidneys",
             "Liver",
-            "Pancreas",
-            "Stomach",
-            "Kidneys"
+            "Ureter",
+            "Lungs"
         ],
-        "correct_answer": "Pancreas",
+        "correct_answer": "Lungs",
         "category": "biology"
     },
     {
-        "id": 32,
-        "question": "Which of the following is the largest organ in the human body?",
+        "id": 154,
+        "question": "Which of the following is the correct pathway for the flow of electrons in photosynthesis?",
         "options": [
-            "Heart",
-            "Lungs",
-            "Skin",
-            "Liver"
+            "Water → NADP+ → Chlorophyll → Oxygen",
+            "NADP+ → Chlorophyll → Water → Oxygen",
+            "Chlorophyll → Water → NADP+ → Oxygen",
+            "Water → Chlorophyll → NADP+ → Oxygen"
         ],
-        "correct_answer": "Skin",
+        "correct_answer": "Water → Chlorophyll → NADP+ → Oxygen",
         "category": "biology"
     },
     {
-        "id": 33,
-        "question": "What is the main function of red blood cells?",
+        "id": 155,
+        "question": "What is the functional unit of the kidney?",
         "options": [
-            "Carry oxygen",
-            "Fight infection",
-            "Clot blood",
-            "Regulate temperature"
+            "Nephron",
+            "Neuron",
+            "Alveolus",
+            "Hepatocyte"
         ],
-        "correct_answer": "Carry oxygen",
+        "correct_answer": "Nephron",
         "category": "biology"
     },
     {
-        "id": 34,
-        "question": "In which part of the human brain is memory primarily stored?",
+        "id": 156,
+        "question": "In humans, the blood group AB is an example of which kind of inheritance?",
         "options": [
-            "Cerebrum",
-            "Cerebellum",
-            "Medulla",
-            "Thalamus"
+            "Co-dominance",
+            "Incomplete dominance",
+            "Complete dominance",
+            "Multiple alleles"
         ],
-        "correct_answer": "Cerebrum",
+        "correct_answer": "Co-dominance",
         "category": "biology"
     },
     {
-        "id": 35,
-        "question": "What is the process of cell division that results in two identical daughter cells called?",
+        "id": 157,
+        "question": "Which of the following is a primary function of the large intestine in humans?",
         "options": [
-            "Meiosis",
-            "Mitosis",
-            "Fission",
-            "Budding"
+            "Absorption of nutrients",
+            "Absorption of water",
+            "Production of bile",
+            "Digestion of proteins"
         ],
-        "correct_answer": "Mitosis",
+        "correct_answer": "Absorption of water",
         "category": "biology"
     },
     {
-        "id": 36,
-        "question": "Which of the following is an example of a monosaccharide?",
+        "id": 158,
+        "question": "Which part of the plant is responsible for the absorption of water and minerals?",
         "options": [
-            "Glucose",
-            "Sucrose",
-            "Lactose",
-            "Fructose"
+            "Stem",
+            "Leaf",
+            "Root",
+            "Flower"
         ],
-        "correct_answer": "Glucose",
+        "correct_answer": "Root",
         "category": "biology"
     },
     {
-        "id": 37,
-        "question": "What is the main function of the kidney in the human body?",
+        "id": 159,
+        "question": "Which type of RNA carries the genetic code from DNA to the ribosome?",
         "options": [
-            "Filter waste products from the blood",
-            "Produce insulin",
-            "Regulate heart rate",
-            "Produce red blood cells"
+            "mRNA",
+            "tRNA",
+            "rRNA",
+            "snRNA"
         ],
-        "correct_answer": "Filter waste products from the blood",
+        "correct_answer": "mRNA",
         "category": "biology"
     },
     {
-        "id": 38,
-        "question": "What type of blood vessel carries blood away from the heart?",
+        "id": 160,
+        "question": "Which of the following is the site of protein synthesis in a cell?",
         "options": [
-            "Arteries",
-            "Veins",
-            "Capillaries",
-            "Lymphatic vessels"
+            "Nucleus",
+            "Mitochondria",
+            "Ribosome",
+            "Golgi apparatus"
         ],
-        "correct_answer": "Arteries",
+        "correct_answer": "Ribosome",
         "category": "biology"
     },
     {
-        "id": 39,
-        "question": "What is the name of the pigment responsible for the green color of plants?",
+        "id": 161,
+        "question": "Which of the following is true about the TCA (Krebs) cycle?",
         "options": [
-            "Carotene",
-            "Chlorophyll",
-            "Xanthophyll",
-            "Anthocyanin"
+            "It occurs in the cytoplasm",
+            "It produces NADH, FADH2, and ATP",
+            "It is an anaerobic process",
+            "It takes place in the nucleus"
         ],
-        "correct_answer": "Chlorophyll",
+        "correct_answer": "It produces NADH, FADH2, and ATP",
         "category": "biology"
     },
     {
-        "id": 40,
-        "question": "What is the largest bone in the human body?",
+        "id": 162,
+        "question": "Which of the following structures is responsible for the formation of cellulose in plants?",
         "options": [
-            "Femur",
-            "Tibia",
-            "Humerus",
-            "Spine"
+            "Chloroplast",
+            "Mitochondrion",
+            "Ribosome",
+            "Plasmodesmata"
         ],
-        "correct_answer": "Femur",
+        "correct_answer": "Chloroplast",
         "category": "biology"
     },
-        {
-            "id": 41,
-            "question": "What is the SI unit of electric charge?",
-            "options": [
-                "Coulomb",
-                "Ampere",
-                "Volt",
-                "Ohm"
-            ],
-            "correct_answer": "Coulomb",
-            "category": "physics"
-        },
-        {
-            "id": 43,
-            "question": "The force required to move an object at constant velocity is equal to the frictional force. This is an example of which law?",
-            "options": [
-                "Newton's First Law",
-                "Newton's Second Law",
-                "Newton's Third Law",
-                "Law of Universal Gravitation"
-            ],
-            "correct_answer": "Newton's First Law",
-            "category": "physics"
-        },
-        {
-            "id": 44,
-            "question": "In an electric circuit, when the potential difference across a resistor is doubled, the current through it is:",
-            "options": [
-                "Halved",
-                "Doubled",
-                "Quadrupled",
-                "Remains the same"
-            ],
-            "correct_answer": "Doubled",
-            "category": "physics"
-        },
-        {
-            "id": 45,
-            "question": "What is the phenomenon in which a beam of light changes its direction when it passes from one medium to another?",
-            "options": [
-                "Refraction",
-                "Reflection",
-                "Diffraction",
-                "Dispersion"
-            ],
-            "correct_answer": "Refraction",
-            "category": "physics"
-        },
-        {
-            "id": 46,
-            "question": "Which of the following particles has no charge?",
-            "options": [
-                "Electron",
-                "Proton",
-                "Neutron",
-                "Positron"
-            ],
-            "correct_answer": "Neutron",
-            "category": "physics"
-        },
-        {
-            "id": 47,
-            "question": "What is the charge of an electron?",
-            "options": [
-                "Positive",
-                "Negative",
-                "Neutral",
-                "None"
-            ],
-            "correct_answer": "Negative",
-            "category": "physics"
-        },
-        {
-            "id": 48,
-            "question": "What is the power dissipated in a resistor when the current is 2 A and the resistance is 10 ohms?",
-            "options": [
-                "20 W",
-                "40 W",
-                "10 W",
-                "5 W"
-            ],
-            "correct_answer": "40 W",
-            "category": "physics"
-        },
-        {
-            "id": 49,
-            "question": "Which of the following is the unit of magnetic field strength?",
-            "options": [
-                "Tesla",
-                "Gauss",
-                "Ampere",
-                "Coulomb"
-            ],
-            "correct_answer": "Tesla",
-            "category": "physics"
-        },
-        {
-            "id": 50,
-            "question": "Which of the following is the primary source of energy for the sun's fusion reactions?",
-            "options": [
-                "Hydrogen",
-                "Helium",
-                "Oxygen",
-                "Carbon"
-            ],
-            "correct_answer": "Hydrogen",
-            "category": "physics"
-        },
-        {
-            "id": 51,
-            "question": "What is the atomic number of the element with 20 protons?",
-            "options": [
-                "18",
-                "20",
-                "22",
-                "24"
-            ],
-            "correct_answer": "20",
-            "category": "chemistry"
-        },
-        {
-            "id": 52,
-            "question": "Which of the following compounds is an example of an ionic bond?",
-            "options": [
-                "NaCl",
-                "CO2",
-                "H2O",
-                "O2"
-            ],
-            "correct_answer": "NaCl",
-            "category": "chemistry"
-        },
-        {
-            "id": 53,
-            "question": "Which gas is produced when an acid reacts with a metal?",
-            "options": [
-                "Carbon dioxide",
-                "Hydrogen",
-                "Oxygen",
-                "Chlorine"
-            ],
-            "correct_answer": "Hydrogen",
-            "category": "chemistry"
-        },
-        {
-            "id": 54,
-            "question": "What is the molecular formula of methane?",
-            "options": [
-                "CH4",
-                "C2H6",
-                "C3H8",
-                "C4H10"
-            ],
-            "correct_answer": "CH4",
-            "category": "chemistry"
-        },
-        {
-            "id": 55,
-            "question": "Which of the following is a characteristic of an exothermic reaction?",
-            "options": [
-                "Absorbs heat",
-                "Releases heat",
-                "Occurs at high temperatures",
-                "Requires a catalyst"
-            ],
-            "correct_answer": "Releases heat",
-            "category": "chemistry"
-        },
-        {
-            "id": 56,
-            "question": "Which element has the highest ionization energy?",
-            "options": [
-                "Fluorine",
-                "Oxygen",
-                "Neon",
-                "Helium"
-            ],
-            "correct_answer": "Helium",
-            "category": "chemistry"
-        },
-        {
-            "id": 57,
-            "question": "What is the pH of a neutral solution?",
-            "options": [
-                "7",
-                "0",
-                "14",
-                "10"
-            ],
-            "correct_answer": "7",
-            "category": "chemistry"
-        },
-        {
-            "id": 58,
-            "question": "What is the name of the process where a solid turns directly into a gas?",
-            "options": [
-                "Sublimation",
-                "Evaporation",
-                "Condensation",
-                "Fusion"
-            ],
-            "correct_answer": "Sublimation",
-            "category": "chemistry"
-        },
-            {
-                "id": 59,
-                "question": "What is the formula for sulfuric acid?",
-                "options": [
-                    "H2SO4",
-                    "H2SO3",
-                    "H2S",
-                    "SO2"
-                ],
-                "correct_answer": "H2SO4",
-                "category": "chemistry"
-            },
-            {
-                "id": 60,
-                "question": "Which bond is formed when two atoms share electrons?",
-                "options": [
-                    "Ionic bond",
-                    "Covalent bond",
-                    "Metallic bond",
-                    "Hydrogen bond"
-                ],
-                "correct_answer": "Covalent bond",
-                "category": "chemistry"
-            },
-            {
-                "id": 61,
-                "question": "What is the value of \\( \\lim_{x \\to 0} \\frac{\\sin x}{x} \\)?",
-                "options": [
-                    "0",
-                    "1",
-                    "∞",
-                    "Does not exist"
-                ],
-                "correct_answer": "1",
-                "category": "maths"
-            },
-            {
-                "id": 62,
-                "question": "The area of the region bounded by the curve \\( y = x^2 \\) and the x-axis from \\( x = -2 \\) to \\( x = 2 \\) is:",
-                "options": [
-                    "8",
-                    "4",
-                    "16",
-                    "12"
-                ],
-                "correct_answer": "8",
-                "category": "maths"
-            },
-            {
-                "id": 63,
-                "question": "If \\( \\tan \\theta = 3 \\), what is the value of \\( \\sin \\theta \\) and \\( \\cos \\theta \\)?",
-                "options": [
-                    "\\( \\sin \\theta = \\frac{3}{\\sqrt{10}}, \\cos \\theta = \\frac{1}{\\sqrt{10}} \\)",
-                    "\\( \\sin \\theta = \\frac{1}{\\sqrt{10}}, \\cos \\theta = \\frac{3}{\\sqrt{10}} \\)",
-                    "\\( \\sin \\theta = \\frac{2}{\\sqrt{10}}, \\cos \\theta = \\frac{3}{\\sqrt{10}} \\)",
-                    "\\( \\sin \\theta = \\frac{3}{\\sqrt{5}}, \\cos \\theta = \\frac{2}{\\sqrt{5}} \\)"
-                ],
-                "correct_answer": "\\( \\sin \\theta = \\frac{3}{\\sqrt{10}}, \\cos \\theta = \\frac{1}{\\sqrt{10}} \\)",
-                "category": "maths"
-            },
-            {
-                "id": 64,
-                "question": "Find the derivative of \\( f(x) = x^3 + 5x^2 + 6x \\).",
-                "options": [
-                    "\\( 3x^2 + 10x + 6 \\)",
-                    "\\( 3x^2 + 10x \\)",
-                    "\\( 3x^2 + 6x + 6 \\)",
-                    "\\( 2x^2 + 10x + 6 \\)"
-                ],
-                "correct_answer": "\\( 3x^2 + 10x + 6 \\)",
-                "category": "maths"
-            },
-            {
-                "id": 65,
-                "question": "The sum of the first 20 terms of an arithmetic progression is 200. What is the first term of the progression?",
-                "options": [
-                    "5",
-                    "10",
-                    "15",
-                    "20"
-                ],
-                "correct_answer": "10",
-                "category": "maths"
-            },
-            {
-                "id": 66,
-                "question": "What is the integral of \\( \\int \\cos x dx \\)?",
-                "options": [
-                    "\\( \\sin x + C \\)",
-                    "\\( -\\sin x + C \\)",
-                    "\\( \\cos x + C \\)",
-                    "\\( -\\cos x + C \\)"
-                ],
-                "correct_answer": "\\( \\sin x + C \\)",
-                "category": "maths"
-            },
-            {
-                "id": 67,
-                "question": "What is the derivative of \\( f(x) = \\tan x \\)?",
-                "options": [
-                    "\\( \\sec^2 x \\)",
-                    "\\( \\cos^2 x \\)",
-                    "\\( \\sin^2 x \\)",
-                    "\\( \\sec x \\)"
-                ],
-                "correct_answer": "\\( \\sec^2 x \\)",
-                "category": "maths"
-            },
-            {
-                "id": 68,
-                "question": "What is the value of \\( \\int_1^2 x^2 dx \\)?",
-                "options": [
-                    "3",
-                    "5",
-                    "7",
-                    "9"
-                ],
-                "correct_answer": "3",
-                "category": "maths"
-            },
-            {
-                "id": 69,
-                "question": "What is the equation of the tangent to the curve \\( y = x^2 + 2x + 1 \\) at the point (1, 4)?",
-                "options": [
-                    "y = 4x - 1",
-                    "y = 2x + 2",
-                    "y = 2x + 1",
-                    "y = 2x + 3"
-                ],
-                "correct_answer": "y = 2x + 2",
-                "category": "maths"
-            },
-            {
-                "id": 70,
-                "question": "What is the solution to the equation \\( \\ln x = 1 \\)?",
-                "options": [
-                    "x = 1",
-                    "x = e",
-                    "x = 0",
-                    "x = ln(1)"
-                ],
-                "correct_answer": "x = e",
-                "category": "maths"
-            },
-            {
-                "id": 71,
-                "question": "Find the second derivative of \\( f(x) = 2x^3 - 5x^2 + 3x \\).",
-                "options": [
-                    "\\( 12x - 10 \\)",
-                    "\\( 12x - 5 \\)",
-                    "\\( 6x - 5 \\)",
-                    "\\( 6x + 10 \\)"
-                ],
-                "correct_answer": "\\( 12x - 10 \\)",
-                "category": "maths"
-            },
-            {
-                "id": 72,
-                "question": "What is the domain of the function \\( f(x) = \\frac{1}{x-3} \\)?",
-                "options": [
-                    "x ≠ 3",
-                    "x > 3",
-                    "x < 3",
-                    "x ≥ 3"
-                ],
-                "correct_answer": "x ≠ 3",
-                "category": "maths"
-            },
-            {
-                "id": 73,
-                "question": "What is the value of \\( \\lim_{x \\to 0} \\frac{1 - \\cos x}{x} \\)?",
-                "options": [
-                    "0",
-                    "1",
-                    "∞",
-                    "Does not exist"
-                ],
-                "correct_answer": "0",
-                "category": "maths"
-            },
-            {
-                "id": 74,
-                "question": "What is the solution to the equation \\( e^{2x} = 7 \\)?",
-                "options": [
-                    "\\( x = \\ln(7) \\)",
-                    "\\( x = \\frac{\\ln(7)}{2} \\)",
-                    "\\( x = 2 \\ln(7) \\)",
-                    "\\( x = \\ln(3) \\)"
-                ],
-                "correct_answer": "\\( x = \\frac{\\ln(7)}{2} \\)",
-                "category": "maths"
-            },
-            {
-                "id": 75,
-                "question": "Find the equation of the normal to the curve \\( y = x^3 - 3x \\) at the point (1, -2).",
-                "options": [
-                    "y = -3x + 1",
-                    "y = 3x - 5",
-                    "y = -3x + 3",
-                    "y = 3x + 4"
-                ],
-                "correct_answer": "y = -3x + 1",
-                "category": "maths"
-            }
-        ]
-        
+    {
+        "id": 163,
+        "question": "Which of the following is the function of the p53 protein in humans?",
+        "options": [
+            "Inhibits apoptosis",
+            "Promotes cell division",
+            "Regulates the cell cycle",
+            "Stimulates the production of cyclins"
+        ],
+        "correct_answer": "Regulates the cell cycle",
+        "category": "biology"
+    },
+    {
+        "id": 164,
+        "question": "In the human body, which of the following blood groups is considered a universal donor?",
+        "options": [
+            "O+",
+            "O-",
+            "AB+",
+            "AB-"
+        ],
+        "correct_answer": "O-",
+        "category": "biology"
+    },
+    {
+        "id": 165,
+        "question": "Which process in plants is directly driven by light energy?",
+        "options": [
+            "Carbon fixation in the stroma",
+            "Oxidation of glucose",
+            "Photolysis of water",
+            "Synthesis of ATP"
+        ],
+        "correct_answer": "Photolysis of water",
+        "category": "biology"
+    },
+    {
+        "id": 166,
+        "question": "Which of the following is not a function of the lymphatic system?",
+        "options": [
+            "Transport of fatty acids and fats",
+            "Filtration of toxins",
+            "Production of red blood cells",
+            "Drainage of excess interstitial fluid"
+        ],
+        "correct_answer": "Production of red blood cells",
+        "category": "biology"
+    },
+    {
+        "id": 167,
+        "question": "Which of the following statements about genetic recombination in meiosis is true?",
+        "options": [
+            "It occurs during anaphase I",
+            "It increases genetic variation in offspring",
+            "It occurs only in mitosis",
+            "It produces identical daughter cells"
+        ],
+        "correct_answer": "It increases genetic variation in offspring",
+        "category": "biology"
+    },
+    {
+        "id": 168,
+        "question": "Which of the following is true about the process of transcription?",
+        "options": [
+            "It occurs in the cytoplasm",
+            "It produces a DNA molecule",
+            "It involves the synthesis of RNA from a DNA template",
+            "It is the final step in protein synthesis"
+        ],
+        "correct_answer": "It involves the synthesis of RNA from a DNA template",
+        "category": "biology"
+    },
+    {
+        "id": 169,
+        "question": "Which of the following is a characteristic of the human Y chromosome?",
+        "options": [
+            "It carries genes for female sex determination",
+            "It is inherited only from the mother",
+            "It is relatively small and carries fewer genes than the X chromosome",
+            "It has no functional role in sex determination"
+        ],
+        "correct_answer": "It is relatively small and carries fewer genes than the X chromosome",
+        "category": "biology"
+    },
+    {
+        "id": 170,
+        "question": "Which of the following types of muscle fibers are most suited for endurance activities?",
+        "options": [
+            "Fast-twitch fibers",
+            "Intermediate fibers",
+            "Slow-twitch fibers",
+            "Smooth muscle fibers"
+        ],
+        "correct_answer": "Slow-twitch fibers",
+        "category": "biology"
+    },
+    {
+        "id": 171,
+        "question": "Which of the following enzymes is responsible for the elongation of the RNA strand during transcription?",
+        "options": [
+            "DNA ligase",
+            "DNA polymerase",
+            "RNA polymerase",
+            "Helicase"
+        ],
+        "correct_answer": "RNA polymerase",
+        "category": "biology"
+    },
+    {
+        "id": 172,
+        "question": "In the context of the Hardy-Weinberg equilibrium, which of the following factors does NOT alter allele frequencies in a population?",
+        "options": [
+            "Natural selection",
+            "Gene flow",
+            "Mutation",
+            "Random mating"
+        ],
+        "correct_answer": "Random mating",
+        "category": "biology"
+    },
+    {
+        "id": 173,
+        "question": "Which of the following is a consequence of crossing over during meiosis?",
+        "options": [
+            "It results in gametes that are genetically identical",
+            "It reduces genetic diversity in offspring",
+            "It increases genetic variation by exchanging genetic material between homologous chromosomes",
+            "It produces haploid cells without recombination"
+        ],
+        "correct_answer": "It increases genetic variation by exchanging genetic material between homologous chromosomes",
+        "category": "biology"
+    },
+    {
+        "id": 174,
+        "question": "Which of the following features is unique to eukaryotic cells as opposed to prokaryotic cells?",
+        "options": [
+            "Presence of a cell membrane",
+            "Presence of ribosomes",
+            "Presence of a nucleus",
+            "Presence of cytoplasm"
+        ],
+        "correct_answer": "Presence of a nucleus",
+        "category": "biology"
+    },
+    {
+        "id": 175,
+        "question": "Which of the following statements correctly describes a function of p53 protein in cancer prevention?",
+        "options": [
+            "Increases the rate of apoptosis in damaged cells",
+            "Inhibits the activity of cyclin-dependent kinases",
+            "Promotes the synthesis of cyclin D",
+            "Repair of damaged DNA without apoptosis"
+        ],
+        "correct_answer": "Increases the rate of apoptosis in damaged cells",
+        "category": "biology"
+    },
+    {
+        "id": 176,
+        "question": "Which of the following is true about the process of oxidative phosphorylation?",
+        "options": [
+            "It occurs in the cytoplasm of eukaryotic cells",
+            "It involves the reduction of oxygen to form water",
+            "It is the process of protein synthesis",
+            "It is independent of the electron transport chain"
+        ],
+        "correct_answer": "It involves the reduction of oxygen to form water",
+        "category": "biology"
+    },
+    {
+        "id": 177,
+        "question": "Which of the following is NOT a feature of the Calvin cycle in photosynthesis?",
+        "options": [
+            "It occurs in the stroma of the chloroplast",
+            "It fixes CO2 into organic molecules",
+            "It requires light energy directly for ATP production",
+            "It synthesizes glucose from carbon dioxide"
+        ],
+        "correct_answer": "It requires light energy directly for ATP production",
+        "category": "biology"
+    },
+    {
+        "id": 178,
+        "question": "Which of the following best describes the mechanism of action of RNA interference (RNAi)?",
+        "options": [
+            "RNAi silences gene expression by enhancing transcription",
+            "RNAi prevents translation by degrading mRNA",
+            "RNAi promotes the synthesis of mRNA",
+            "RNAi activates the immune system to target pathogens"
+        ],
+        "correct_answer": "RNAi prevents translation by degrading mRNA",
+        "category": "biology"
+    },
+    {
+        "id": 179,
+        "question": "Which of the following molecules is directly involved in the process of translation?",
+        "options": [
+            "mRNA",
+            "tRNA",
+            "rRNA",
+            "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "category": "biology"
+    },
+    {
+        "id": 180,
+        "question": "Which of the following statements about the structure of hemoglobin is correct?",
+        "options": [
+            "It is composed of two alpha and two beta subunits",
+            "It is composed of one alpha and three beta subunits",
+            "It has a single polypeptide chain",
+            "It binds oxygen irreversibly"
+        ],
+        "correct_answer": "It is composed of two alpha and two beta subunits",
+        "category": "biology"
+    },
+    {
+        "id": 181,
+        "question": "Which of the following is a mechanism by which eukaryotic cells control gene expression at the post-transcriptional level?",
+        "options": [
+            "DNA methylation",
+            "RNA splicing",
+            "Histone acetylation",
+            "Chromatin remodeling"
+        ],
+        "correct_answer": "RNA splicing",
+        "category": "biology"
+    },
+    {
+        "id": 182,
+        "question": "Which of the following mechanisms of genetic variation occurs during meiosis and leads to the production of genetically diverse gametes?",
+        "options": [
+            "Mutation",
+            "Crossing over",
+            "Gene duplication",
+            "Binary fission"
+        ],
+        "correct_answer": "Crossing over",
+        "category": "biology"
+    },
+    {
+        "id": 183,
+        "question": "Which of the following best describes the role of the lac operon in bacterial gene regulation?",
+        "options": [
+            "It activates the synthesis of lactose when glucose is absent",
+            "It inhibits transcription of genes involved in lactose metabolism",
+            "It enhances the expression of glucose-utilizing genes",
+            "It is activated in the presence of glucose and repressed in the absence of glucose"
+        ],
+        "correct_answer": "It activates the synthesis of lactose when glucose is absent",
+        "category": "biology"
+    },
+    {
+        "id": 184,
+        "question": "Which of the following is true about the structure of the telomere in eukaryotic chromosomes?",
+        "options": [
+            "It is composed of repetitive DNA sequences that protect chromosome ends from degradation",
+            "It contains protein-coding genes for cellular growth",
+            "It is located in the centromere region of chromosomes",
+            "It is the site where DNA replication begins"
+        ],
+        "correct_answer": "It is composed of repetitive DNA sequences that protect chromosome ends from degradation",
+        "category": "biology"
+    },
+    {
+        "id": 185,
+        "question": "Which of the following correctly explains the role of the endoplasmic reticulum in eukaryotic cells?",
+        "options": [
+            "It synthesizes ribosomal RNA",
+            "It packages proteins for secretion",
+            "It is responsible for the synthesis of lipids and steroids",
+            "It stores calcium ions for muscle contraction"
+        ],
+        "correct_answer": "It is responsible for the synthesis of lipids and steroids",
+        "category": "biology"
+    },
+    {
+        "id": 186,
+        "question": "Which of the following processes occurs in the mitochondria and is directly involved in ATP production?",
+        "options": [
+            "Glycolysis",
+            "Citric acid cycle",
+            "Fermentation",
+            "Electron transport chain"
+        ],
+        "correct_answer": "Electron transport chain",
+        "category": "biology"
+    },
+    {
+        "id": 187,
+        "question": "Which of the following is NOT a type of post-translational modification of proteins?",
+        "options": [
+            "Phosphorylation",
+            "Glycosylation",
+            "Acetylation",
+            "RNA splicing"
+        ],
+        "correct_answer": "RNA splicing",
+        "category": "biology"
+    },
+    {
+        "id": 188,
+        "question": "Which of the following processes contributes to the genetic diversity of a population during sexual reproduction?",
+        "options": [
+            "Binary fission",
+            "Crossing over and independent assortment",
+            "Asexual reproduction",
+            "Mitosis"
+        ],
+        "correct_answer": "Crossing over and independent assortment",
+        "category": "biology"
+    },
+    {
+        "id": 189,
+        "question": "Which of the following best describes the role of ribosomes in protein synthesis?",
+        "options": [
+            "They synthesize RNA from a DNA template",
+            "They facilitate the binding of tRNA to mRNA during translation",
+            "They process pre-mRNA into mature mRNA",
+            "They synthesize ribosomal RNA"
+        ],
+        "correct_answer": "They facilitate the binding of tRNA to mRNA during translation",
+        "category": "biology"
+    },
+    {
+        "id": 190,
+        "question": "Which of the following is the function of the protein p21 in the cell cycle?",
+        "options": [
+            "It activates cyclin-dependent kinases",
+            "It inhibits the cell cycle in response to DNA damage",
+            "It promotes the transition from G1 to S phase",
+            "It induces apoptosis in damaged cells"
+        ],
+        "correct_answer": "It inhibits the cell cycle in response to DNA damage",
+        "category": "biology"
+    },
+    {
+        "id": 191,
+        "question": "Which of the following best explains the phenomenon of genomic imprinting?",
+        "options": [
+            "Expression of alleles is influenced by the parent of origin",
+            "Both alleles are equally expressed regardless of the parent of origin",
+            "Only the maternal allele is expressed in all cases",
+            "Imprinting leads to the loss of function of one allele in all cases"
+        ],
+        "correct_answer": "Expression of alleles is influenced by the parent of origin",
+        "category": "biology"
+    },
+    {
+        "id": 192,
+        "question": "Which of the following is the primary function of the protein complex called the proteasome?",
+        "options": [
+            "To synthesize proteins from mRNA",
+            "To degrade misfolded or damaged proteins",
+            "To transport proteins across the membrane",
+            "To facilitate DNA replication"
+        ],
+        "correct_answer": "To degrade misfolded or damaged proteins",
+        "category": "biology"
+    },
+    {
+        "id": 193,
+        "question": "Which of the following best describes the role of microRNA (miRNA) in gene regulation?",
+        "options": [
+            "miRNAs promote the degradation of target mRNA or inhibit its translation",
+            "miRNAs facilitate the binding of RNA polymerase to the promoter region",
+            "miRNAs are involved in DNA repair mechanisms",
+            "miRNAs mediate the process of splicing of pre-mRNA"
+        ],
+        "correct_answer": "miRNAs promote the degradation of target mRNA or inhibit its translation",
+        "category": "biology"
+    },
+    {
+        "id": 194,
+        "question": "Which of the following is true about the role of telomerase in the maintenance of chromosome integrity?",
+        "options": [
+            "Telomerase extends the telomeres to prevent chromosome shortening during replication",
+            "Telomerase degrades the telomeres to allow for DNA repair",
+            "Telomerase is involved in the repair of double-stranded DNA breaks",
+            "Telomerase is required for the initiation of DNA replication at the origin"
+        ],
+        "correct_answer": "Telomerase extends the telomeres to prevent chromosome shortening during replication",
+        "category": "biology"
+    },
+    {
+        "id": 195,
+        "question": "Which of the following is the primary function of the enzyme RNA polymerase II in eukaryotic cells?",
+        "options": [
+            "It synthesizes mRNA from a DNA template",
+            "It synthesizes ribosomal RNA (rRNA)",
+            "It synthesizes tRNA from a DNA template",
+            "It participates in the DNA repair process"
+        ],
+        "correct_answer": "It synthesizes mRNA from a DNA template",
+        "category": "biology"
+    },
+    {
+        "id": 196,
+        "question": "Which of the following best describes the mechanism by which the lac operon is activated in E. coli?",
+        "options": [
+            "The presence of lactose causes the lac repressor to bind to the operator, allowing transcription",
+            "The presence of glucose causes the lac repressor to bind to the operator, allowing transcription",
+            "The presence of lactose inactivates the repressor and allows transcription",
+            "The absence of lactose causes the lac operator to be open, allowing transcription"
+        ],
+        "correct_answer": "The presence of lactose inactivates the repressor and allows transcription",
+        "category": "biology"
+    },
+    {
+        "id": 197,
+        "question": "Which of the following is true about the role of the Golgi apparatus in the cell?",
+        "options": [
+            "It synthesizes proteins from mRNA templates",
+            "It modifies, sorts, and packages proteins for secretion",
+            "It is the site of cellular respiration",
+            "It synthesizes ribosomal RNA"
+        ],
+        "correct_answer": "It modifies, sorts, and packages proteins for secretion",
+        "category": "biology"
+    },
+    {
+        "id": 198,
+        "question": "Which of the following is an example of a cis-acting element that regulates gene expression in eukaryotic cells?",
+        "options": [
+            "Transcription factors",
+            "Enhancers",
+            "MicroRNAs",
+            "Coactivators"
+        ],
+        "correct_answer": "Enhancers",
+        "category": "biology"
+    },
+    {
+        "id": 199,
+        "question": "Which of the following accurately describes the role of the enzyme topoisomerase during DNA replication?",
+        "options": [
+            "It synthesizes RNA primers to initiate replication",
+            "It unwinds the DNA double helix",
+            "It alleviates supercoiling tension ahead of the replication fork",
+            "It removes RNA primers after DNA synthesis"
+        ],
+        "correct_answer": "It alleviates supercoiling tension ahead of the replication fork",
+        "category": "biology"
+    },
+    {
+        "id": 200,
+        "question": "Which of the following is the primary function of the protein complex called the spliceosome?",
+        "options": [
+            "To add the 5' cap to pre-mRNA",
+            "To remove introns and join exons in pre-mRNA",
+            "To synthesize ribosomal RNA",
+            "To initiate transcription at the promoter region"
+        ],
+        "correct_answer": "To remove introns and join exons in pre-mRNA",
+        "category": "biology"
+    }
+ 
+]
