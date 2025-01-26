@@ -11,48 +11,42 @@ body {
 }
 
 header {
-    text-align: center;
+
     margin-bottom: 40px;
-    background-color: #1a1a2e;
+    background-color: #0f73b6;
     color: white;
-    padding: 20px;
     border-radius: 10px;
 }
-
-header h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-header p {
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
-
-nav ul {
-    list-style: none;
+.logo{
     display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
-    margin-right: 50px;
+}
+
+
+.logo h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
     font-weight: bold;
+    margin-top: 20px;
 }
 
-nav ul li {
-    margin: 0 15px;
+.logo img {
+    height: 70px;
+    width: 70px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    transition: color 0.3s;
+nav {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.image {
+    height: 400px; 
+    background-image: url("/static/images/web.png");
+    background-size: cover; 
+    background-position: center; 
 }
 
-nav ul li a:hover {
-    color: #ff6600;
-}
 
 #hero {
     text-align: center;
@@ -68,7 +62,7 @@ h2 {
 .start-btn {
     padding: 15px 30px;
     font-size: 1.2rem;
-    background-color: #ff6600;
+    background-color: #0f73b6;
     color: white;
     border: none;
     border-radius: 5px;
@@ -96,7 +90,7 @@ h2 {
 }
 
 .start-btn:active {
-    background-color: #e65c00;
+    background-color: #062940;
     transform: scale(0.95);
 }
 
@@ -121,7 +115,7 @@ h2 {
 .card {
     height: 100px;
     width: 150px;
-    background-color: #2d2d44;
+    background-color: #0f73b6;
     font-weight: bold;
     font-size: 20px;
     color: white;
@@ -184,6 +178,12 @@ footer {
     h2 {
         font-size: 1.2rem;
     }
+    .image {
+        height: 400px; 
+        background-image: url("/static/images/quiz-2432440_1280.png");
+        background-size: cover; 
+        background-position: center; 
+    }
 
     .start-btn {
         font-size: 0.9rem;
@@ -194,20 +194,24 @@ footer {
         width: 400px;
         margin: 10px auto;
     }
-    .card2{
+
+    .card2 {
         width: 400px;
         margin: 10px auto;
     }
 
-    .container-2, .container {
+    .container-2,
+    .container {
         display: block;
         text-align: center;
     }
-    .button{
+
+    .button {
         width: 400px;
     }
 
-    .container .card, .container-2 .card2 {
+    .container .card,
+    .container-2 .card2 {
         margin: 10px auto;
     }
 }

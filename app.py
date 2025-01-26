@@ -23,10 +23,6 @@ except Exception as e:
 def home():
     return render_template('home.html', title="Quiz Game")
 
-@app.route('/contact')
-def contact():
-    return render_template('contact.html')
-
 @app.route('/quiz')
 def quiz():
     category = request.args.get('category')
@@ -119,3 +115,5 @@ def get_final_score():
     score = session.get('score', 0)
     return jsonify({'score': score})
 
+if __name__ == '__main__':
+    app.run(debug=True)
