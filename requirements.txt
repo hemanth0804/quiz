@@ -1,9 +1,28 @@
-blinker==1.9.0
-click==8.1.8
-colorama==0.4.6
-Flask==3.1.0
-itsdangerous==2.2.0
-Jinja2==3.1.5
-MarkupSafe==3.0.2
-Werkzeug==3.1.3
-Gunicorn
+an IP address is a numerical identifier assigned to each machine  on IP network
+an Ip address is software or logical address and it designates the  specific location of devices on the network
+
+
+Notations
+------------
+Dotted decimal notation
+Binary notation
+Hexadecimal notation
+ Rules
+-------
+1)there must be no leading zero
+2)there can be no more then four bytes in ipv4 address
+3)each number must be less than or equal to 255
+4)a mixture of binary and decimal notation is not allowed
+
+classful addressing
+--------------------
+they are different types of classes like A B C D E
+class A 0-127
+class B 128-191
+class C 192-223
+class D 224-239
+class E 240-255
+
+default mask is used to identify the network mask
+
+A network mask or a default mask in classful addressing is a 32-bit number with n left most bit s lal
